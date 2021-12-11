@@ -1,9 +1,3 @@
-head>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<title>1st Analysis</title>
-      <link rel="shortcut icon" type="image/jpg" href="python-logo.png"/>
-   </head>
 
 ![image](/assets/images/american-gov.jpg)
 
@@ -40,6 +34,12 @@ For our analysis we used Quotebank dataset containing 178 million unique, speake
 ## Analysis of the evolution of the number of quotes
 
 First of all, let's take a look at the general trend of the number of quotes of the two political opponents over the years 2015-2017, feel free to interact with the plot to discover useful information. The first question which might arise spontanously is the following: who has the bigger number of quotes ? Does it relate to the politician popularity ?
+<head>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<title>1st Analysis</title>
+      <link rel="shortcut icon" type="image/jpg" href="python-logo.png"/>
+   </head>
 
 <iframe src="General_timeseries_comparison.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
 
