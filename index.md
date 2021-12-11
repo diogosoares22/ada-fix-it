@@ -32,4 +32,6 @@ For our analysis we used Quotebank dataset containing 178 million unique, speake
 
 ## Analysis of the evolution of the number of quotes
 
+First of all, let's take a look at the general trend of the number of quotes of the two political opponents over the years 2015-2017, feel free to interact with the plot to discover useful information.
+
 {% include General_timeseries_comparison.html %}
