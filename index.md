@@ -49,3 +49,10 @@ As we can observe, generally speaking the number of quotes related to Trump is b
 
 At the beginning of 2015 Hillary Clinton was very well known in the United States since she had already covered several political positions such as being the first lady of the United States (1993-2001), being an US senator from New York (2001-2009) and serving as the United States Secretary of State (2009-2013). On the other hand, Donald Trump was mostly known at the beginning of 2015 as a business man and it was not until June 2015 that he announced  his entrance into the race for the White House. But 2015 has been a year often considered a turning point in the recent American political scene since we assist to a rapid increase in Trump popularity and consent.
 We will have a look at the number of quotes referring to the two politicians over the course of the year 2015.
+<head>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<title>1st Analysis</title>
+      <link rel="shortcut icon" type="image/jpg" href="python-logo.png"/>
+   </head>
+<iframe src="both_timeseries_2015.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
