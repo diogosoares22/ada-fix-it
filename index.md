@@ -57,4 +57,5 @@ We will have a look at the number of quotes referring to the two politicians ove
    </head>
 <iframe src="both_timeseries_2015.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
 
+
 The number of quotes reflect perfectly the popularity of the two politicians, Trump has very few quotes referring to him until the half of May while Clinton has a much more consistent number of quotes referred to her from the beginning. 
