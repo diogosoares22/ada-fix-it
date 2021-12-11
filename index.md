@@ -43,4 +43,4 @@ First of all, let's take a look at the general trend of the number of quotes of 
 
 <iframe src="General_timeseries_comparison.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
 
-As we can 
+As we can observe, generally speaking the number of quotes related to Trump is bigger than the number of quotes related to Cliton, but there are some periods in which this is not the case (for example at the beginning of 2015). In addition, as a general trend, we can observe that Clinton number of quotes has decreased a lot from September 2016 until the end of 2017 while the opposite is true for Trump.
