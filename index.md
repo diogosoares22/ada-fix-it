@@ -32,3 +32,4 @@ For our analysis we used Quotebank dataset containing 178 million unique, speake
 
 ## Analysis of the evolution of the number of quotes
 
+{% include General_timeseries_comparison.html %}
