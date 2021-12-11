@@ -1,4 +1,4 @@
-<img src="images/Emoticons/cool.png" alt="hi" class="inline"/>
+![image](/assets/images/american-gov.jpg)
 # Introduction
 
 ## Abstract
