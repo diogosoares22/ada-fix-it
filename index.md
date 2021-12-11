@@ -29,3 +29,6 @@ For our analysis we used Quotebank dataset containing 178 million unique, speake
 | Donald Trump     | More than 450000 quotes referred to him from more than 30000 different speakers |
 | Hillary Clinton   | More than 60000 quotes referred to her from more than 8000 different speakers |
 {: .tablelines}
+
+## Analysis of the evolution of the number of quotes
+
