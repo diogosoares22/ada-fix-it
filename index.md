@@ -4,7 +4,7 @@
 
 ## Abstract
 
-In the 21st century *media coverage* is a crucial factor for political figures. The public is “meant” to believe everything they’re told and not question it, so that people are easily convinced by what they read on newspapers, news websites or social media. Therefore it could be of primarly interest to study and understand *media interest* in different politicians over a specific time period since this interest is capable of influencing the thoughts of billions of people.
+In the 21st century *media coverage* is a crucial factor for political figures. The public is “meant” to believe everything they are told and not question it, so that people are easily convinced by what they read on newspapers, news websites or social media. Therefore it could be of primarly interest to study and understand *media interest* in different politicians over a specific time period since this interest is capable of influencing the thoughts of billions of people.
 
 ## Methods
 
@@ -16,3 +16,9 @@ In our analysis we will focus on the years 2015-2017 and we will:
 * compare our results with Google Trends to see if the conventional media outlets capture the online interest as well.
 * try to understand which are the main differences between the speakers whose quotes refer to Trump and the one whose quotes refer to Clinton. 
 
+## Data in numbers
+
+For our analysis we used Quotebank dataset containing 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over 377 thousand web domains between 2015-2020. After a careful selection of the quotes we could be able to collect the following data for our analysis.
+Politicians | Quotes
+----------- | -----
+content 1 | content 2
