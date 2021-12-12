@@ -210,8 +210,11 @@ We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, 
 
 ### Logistic Regression Model
 
+![Logistic_Regression](Logistic_Regression.png)
+
 ### Least Squares Model
 
+![Least_Squares](Linear_Regression.png)
 
 ## Conclusion
 
