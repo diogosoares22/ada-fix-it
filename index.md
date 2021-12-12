@@ -150,20 +150,29 @@ Technically by computing a *Student t-test* for both distributions we can comput
 
 ### Gender
 
+Nowadays, the relationship between gender and politics is a very hot topic. The study of gender and politics focus on how peoples' genre determines their participation in and experience of political events. One of the central concerns of this topic relates to the exclusion of women from politics, it's clear that the participation is not equal, therefore most democratic societies are focusing on changing the current situation. Should we expect different ratios from men and women to contribute in politics? What's the current situation in terms of numbers? Let's see!
+
 ##### Trump Gender Distribution
 
 <iframe src="Trump_gender.html" width="100%" height="500">  </iframe>
+
+Given the number of males and females speaking about Trump, we clearly see a 3.23 male / female ratio, this means for every female that speaks about Trump we have on average 3.23 males speaking about Trump.
 
 ##### Clinton Gender Distribution
 
 <iframe src="Clinton_gender.html" width="100%" height="500">  </iframe>
 
+Given the number of males and females speaking about Clinton, we clearly see a 2.80 male / female ratio, this means for every female that speaks about Clinton, we have on average 2.8 males speaking about Clinton.
+
 ##### Gender Comparison
 
 <iframe src="Clinton_Trump_gender.html" width="100%" height="500">  </iframe>
 
+As we can see the percentage of men talking about Trump is very similar to the Author Distribution, which means that talking about Trump even though it's maioritarily done by men doesn't reflect a big deviation from the distribution seen on other topics. However, interestingly talking about Clinton deviates a lot from the Author Distribution and from talking about Trump, one possible explanation for this phenomena can relate to the feminist movement, since Hillary Clinton would be the first female President of the US.
+
 ##### Is the difference statistical significant?
 
+We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, since we got [2.61, 3.01] for Clinton and [3.01, 3.37] for Trump, we can easily spot that the two confidence intervals don't overlap, therefore the difference in ratios is statistically significant.
 
 ### Ethnicity
 
@@ -195,7 +204,13 @@ Technically by computing a *Student t-test* for both distributions we can comput
 
 <iframe src="Clinton_Trump_Nat.html" width="100%" height="500">  </iframe>
 
+
+
 ## Machine Learning Interpretable Models
+
+### Logistic Regression Model
+
+### Least Squares Model
 
 
 ## Conclusion
