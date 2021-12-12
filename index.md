@@ -116,3 +116,33 @@ We will compare the evolution of the number of quotes during the years 2015-2017
 
 
 As we can observe, in 2015 the two curves behave in a similar way. However the same is not true for the years 2016-2017. This is probably caused by the fact that the years 2016 and 2017 are quite special when it comes to Trump. For example in 2016 we observe a great amount of quotes before election periods and a few quotes during election period while the opposite is true when it comes to Google Trends plot. The reason which could explain the behaviour of the two distributions could lie on the fact that even if linked, the mediatic interest and the number of queries are not totally related. For instance, in that case, mediatic attention rose more for previous debates than for election while online interest rose more right after the elections. A similar resoning apply to 2017: events such that the Women’s March are able to attract more the online attention (also thanks to social media) while often this is not the case for newspapers or news websites.
+
+## Analysis of speaker attributes
+
+In order to provide a complete description of the popularity of a politician, it's of the utmost importance to have an in-depth analysis of the characteristics of the individuals that talk about this political figure. Afterwards we'll provide a data driven analysis focused on describing the **Age**, the **Ethnicity**, the **Gender** and the **Nationality** of Trump and Clinton speakers.
+
+### Age
+
+According to conventional wisdom people tend to become more conservative as they grow older, recently the *University of Chicago Press* elaborated a study that tries to access if the convential wisdom holds and how much so, in our work we will take a look at how the distribution of ages of Conservative Republican Donald Trump relates to the distribution of ages of his counterpart Democrat Hillary Clinton, do you think the conventional wisdom holds? Let's take a look!
+
+##### Trump Age Distribution
+
+<iframe src="Trump_Age.html" width="100%" height="500">  </iframe>
+
+As we observe the median age of a Trump speaker is 59 years old, interestingly the interquartile range is only 21 years with the first quartile ending at 48 years old and the third quartile ending at 69 years old, therefore 75 % of the speakers have more than 48 years. Another interesting observation relates to the skewness of the curve in the right and left sides of the distribution, it's noticeable that the skewness is slightly bigger on the right side compared to the left side, one possible explanation is the inherent biological restrictions of the human body, since the global live expectancy is calculated to be around 72 years old.
+
+##### Clinton Age Distribution
+
+<iframe src="Clinton_Age.html" width="100%" height="500">  </iframe>
+
+As we observe the median age of a Clinton speaker is 60 years old, interestingly the interquartile range is only 22 years with the first quartile ending at 49 years old and the third quartile ending at 71 years old, therefore 75 % of the speakers have more than 49 years. Following the reasoning from the Trump Distribution, here one can also see that the right side of the distribution is more skewed than the right side, however the higher median and third quartile values mean the biological restriction will be even more visible, therefore having a skewness much higher in compared to the left side.
+
+##### Age Comparison
+
+<iframe src="Clinton_Trump_Age.html" width="100%" height="500">  </iframe>
+
+From the distribution it could seem that Clinton's speakers are a bit older in general with respect to Trump's speakers, since as we mentioned before Trump's median is one year less than Clinton's median and the third quartile value is two years less than Clinton's as well. Additionally it's also notable that the age distribution deviates from the Authors distribution, maybe we can reason that people in their 40s, 50s and 60s are more prone to talk about politics, maybe one of the reasons why this happens relates to younger people not having enough knowledge of the recent political history, in order to correclty access the state of the country, and older people are not as prone to spend energy talking about such complex topic.
+
+##### Is the difference statistical significant?
+
+Technically by computing a *Student t-test* for both distributions we can compute the p-value of the null-hypothesis stating that the two distributions have the same mean. One can do this computation and see that the p-value is 2.3e-05, conventionally with such a low p-value it's often stated that we can reject the null hypothesis, therefore implying the difference to be statistically significant.
