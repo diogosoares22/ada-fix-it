@@ -69,3 +69,6 @@ The 2016 year was the decisive year for the future of the United States of Ameri
 
 
 <iframe src="both_timeseries_2016.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
+
+
+We can observe that the distribution of the number of quotes about the two politician is quite varied: there are some weeks in which the number of quotes is almost zero while in some other weeks there are peaks of thousands of quotes. Moreover we observe that the distribution is very similar for the two politicians: when one politician has very few quotes the other has very few quotes too and the same is for the peaks. Why this happens ?
