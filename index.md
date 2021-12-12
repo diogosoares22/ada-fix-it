@@ -98,4 +98,6 @@ Th biggest peak in the number of quotes referred to Trump was during the third w
 At the end of august 2017, according to the results of the poll of NCB news:
 * 39 percent of Americans approve of Trump’s job as president (compared with 59 percent who disapprove)
 * 36 percent have a favorable impression of the president (versus 61 percent with an unfavorable view)
-* 38 percent believe immigration hurts the country more than it helps (versus 57 percent who think it helps more than it hurts)ù
+* 38 percent believe immigration hurts the country more than it helps (versus 57 percent who think it helps more than it hurts)
+
+Therefore, despite the number of quotes referring to Trump in 2017 is high, most of them are due to the fact that some controvertial facts happened in the United States during that period. This shows that having a great mediatic interest does not always mean that the character is appreciated by the population.
