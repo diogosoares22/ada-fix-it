@@ -63,7 +63,7 @@ Despite the initial lack of quotes referring to Trump, he succeeded to capture a
 
 Eight days later his polling average climbed to 16.8% (slightly before the first detected peaks in the timeseries). We also observe that the second detected and third peak for Trump and other minor peaks for Clinton are respectively in the weeks of the first and second republican debate held the 7th of August and the 17th of September. As we can observe, despite the peaks are visible for both the opponents, the Trump's one are bigger. This shows how his character captured more the interest of the media compared to Hillary Clinton. For instance the famous speech against terrorism pronounced by Clinton the 11th November 2015 (first detected peak for Clinton) grabbed some attention but the controversial want of Trump of banning all the muslim entering US (8th December 2015) did it in a way more substantial way.
 
-### Year 2016: The moment of the truth
+### Year 2016: The year of the truth
 
 The 2016 year was the decisive year for the future of the United States of America since the 58th presidential election was held the 8th November of 2016. Nobody had a clear answer at the question "who will win the next elections ?": even if Trump took a great advantage on the opponent during the summer of 2015, Clinton could count on the historical support of a great amount of Americans. The year 2016 and in particular the few month before elections have been a turning point in the result of the 2016 elections. Which events grabbed the most the media attention during this year ?
 
@@ -78,4 +78,9 @@ The media interest in Trump the week the 21th february 2016 could probably be re
 The main political events which happened in the following months were the Republican and Democratic national conventions respectively the 18th-21th of July and the 25th-28th of July (two highest peak of the year). In the Republican national convention Trump won the party’s nomination to Republicans’ disbelief,, Trump accepted the party nomination: “Nobody knows the system better than me, which is why I alone can fix it.”. During the Democratic one Clinton became the first woman to accept the nomination of a major party in the US: “Standing here as my mother’s daughter, and my daughter’s mother, I’m so happy this day has come.” She added: “When any barrier falls in America, for anyone, it clears the way for everyone.”. From that moment on the two rivals were decided and the following months, marked by public debates, have been decisive for the result of the elections. The first presidential debate was held the 26th September in New York. It was the most watched debate in American history, with at least 80m people tuning in. Clinton came prepared, Trump not so much. She baited him with charges of racism, sexism and tax avoidance and he took the bait.
 After the first and the following debates everything was set up: people only had to vote and to wait for the results. Election day arrived soon (8th November 2016). With a big surprise Trump defeated the opponent Hillary Clinton despite Clinton received a slightly higher number of votes. From that moment on Clinton's popularity has decreased a lot in media quotes while Trump's one has increased drastically right after the elections with a great interest of the media on him around the 15th of December.
 
-### Year 2017: 
+### Year 2017: The early actions
+
+After the defeat of Clinton in 2016 elections, Trump was inaugurated as the 45th president of the United States on January 20, 2017.
+
+
+<iframe src="both_timeseries_2017.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
