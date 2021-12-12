@@ -112,6 +112,6 @@ According to recent studies of Pew Research center about half (48%) of U.S. adul
 We will compare the evolution of the number of quotes during the years 2015-2017 for both Clinton and Trump with Google Trends number of searches in Google of the two politicians in the United States area.
 
 
-<iframe src="google_trends_comparison_Trump.html" width="150%" height="1500" style="border:1px solid black;">  </iframe>
+<iframe src="google_trends_comparison_Trump.html" width="150%" height="1500">  </iframe>
 
 
