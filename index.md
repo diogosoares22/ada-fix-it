@@ -80,7 +80,10 @@ After the first and the following debates everything was set up: people only had
 
 ### Year 2017: The early actions
 
-After the defeat of Clinton in 2016 elections, Trump was inaugurated as the 45th president of the United States on January 20, 2017.
+After the defeat of Clinton in 2016 elections, Trump was inaugurated as the 45th president of the United States on January 20, 2017. How his early actions influenced the mediatic interest on his character ? Let's have a look at the timeseries.
 
 
 <iframe src="both_timeseries_2017.html" width="100%" height="500" style="border:1px solid black;">  </iframe>
+
+
+
