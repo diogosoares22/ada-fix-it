@@ -107,4 +107,4 @@ Therefore, despite the number of quotes referring to Trump in 2017 is high, most
 According to recent studies of Pew Research center about half (48%) of U.S. adults say they get news from social media “often” or “sometimes”. As a consequence, nowadays, it is not sufficient anymore to study the popularity of a given character on media but it could be useful to study his popularity also in social medias and more in general online. Therefore, a question which might arise spontanously is the following: is the mediatic interest linked to the online interest ? To answer this question we will use Google Trends data. Google Trends is a website by Google that analyzes the popularity of top search queries in Google Search across various regions and languages. The website uses graphs to compare the search volume of different queries over time.
 
 
-![image](/assets/images/google_trends.jpg)
+![image](/assets/images/google_trends.png)
