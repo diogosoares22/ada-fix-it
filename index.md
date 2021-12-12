@@ -119,7 +119,7 @@ As we can observe, in 2015 the two curves behave in a similar way. However the s
 
 ## Analysis of speaker attributes
 
-In order to provide a complete description of the popularity of a politician, it's of the utmost importance to have an in-depth analysis of the characteristics of the individuals that talk about this political figure. Afterwards we'll provide a data driven analysis focused on describing the **Age**, the **Ethnicity**, the **Gender** and the **Nationality** of Trump and Clinton speakers.
+In order to provide a complete description of the popularity of a politician, it's of the utmost importance to have an in-depth analysis of the characteristics of the individuals that talk about this political figure. Afterwards we'll provide a data driven analysis focused on describing the **Age**, , the **Gender**, the **Ethnicity** and the **Nationality** of Trump and Clinton speakers.
 
 ### Age
 
@@ -146,3 +146,59 @@ From the distribution it could seem that Clinton's speakers are a bit older in g
 ##### Is the difference statistical significant?
 
 Technically by computing a *Student t-test* for both distributions we can compute the p-value of the null-hypothesis stating that the two distributions have the same mean. One can do this computation and see that the p-value is 2.3e-05, conventionally with such a low p-value it's often stated that we can reject the null hypothesis, therefore implying the difference to be statistically significant. In the end, we can conclude that on average the age of Trump speaker is smaller than the average of a Clinton speaker, therefore if we assume people talk more often about the people they support, this would be contradicting the conventional wisdom. However, recently there is an increasing amount of critique surrounding the speech of most authors, so we can be observing the inverse pattern, where a Trump Speaker would be more likely to be supporting Clinton, in this case the conventional wisdom would hold true. To sum up the data doesn't provide insights on the accuracy of the conventional wisdom.
+
+
+### Gender
+
+##### Trump Gender Distribution
+
+<iframe src="Trump_gender.html" width="100%" height="500">  </iframe>
+
+##### Clinton Gender Distribution
+
+<iframe src="Clinton_gender.html" width="100%" height="500">  </iframe>
+
+##### Gender Comparison
+
+<iframe src="Clinton_Trump_gender.html" width="100%" height="500">  </iframe>
+
+##### Is the difference statistical significant?
+
+
+### Ethnicity
+
+##### Trump Ethnicity Distribution
+
+<iframe src="Trump_Eth.html" width="100%" height="500">  </iframe>
+
+##### Clinton Ethnicity Distribution
+
+<iframe src="Clinton_Eth.html" width="100%" height="500">  </iframe>
+
+##### Ethnicity Comparison
+
+<iframe src="Clinton_Trump_Eth.html" width="100%" height="500">  </iframe>
+
+
+
+### Nationality
+
+##### Trump Nationality Distribution
+
+<iframe src="Trump_Nat.html" width="100%" height="500">  </iframe>
+
+##### Clinton Nationality Distribution
+
+<iframe src="Clinton_Nat.html" width="100%" height="500">  </iframe>
+
+##### Nationality Comparison
+
+<iframe src="Clinton_Trump_Nat.html" width="100%" height="500">  </iframe>
+
+## Machine Learning Interpretable Models
+
+
+## Conclusion
+
+In this Project we provide a detailed analysis of the US political landscape from 2015 up to 2017, throughout our project we carefully look at the caracteristics of authors that talked about the two key political figures during that time (Donald Trump and Hillary Clinton), by looking at this two distinct groups we can reason about the two different basis around this two politicians and we can therefore think about the underlying differences between the democrat and republican basis. In the end, we create a model to predict wether or not someone is talking about Trump or Clinton, the results of the model can provide insights as to whether a person's caracteristic such as age or gender can be used as a predictor for the task at hand. To sum up our project's goal was to provide a detailed data centric view of the popularity and polarization of the aforementioned political figures for different groups of people.
+
