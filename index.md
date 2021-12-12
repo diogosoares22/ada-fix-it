@@ -112,7 +112,7 @@ According to recent studies of Pew Research center about half (48%) of U.S. adul
 We will compare the evolution of the number of quotes during the years 2015-2017 for both Clinton and Trump with Google Trends number of searches in Google of the two politicians in the United States area. For the sake of simplicity we will consider only Trump quotes and Trump trends.
 
 
-<p align="center"><iframe src="google_trends_comparison_Trump.html" width="100%" height="1500"> </iframe></p>
+<p align="center"><iframe src="google_trends_comparison_Trump.html" width="160%" height="1700"> </iframe></p>
 
 
-As we can observe, in 2015 the two curves behave in a similar way. However the same is not true for the years 2016-2017. 
+As we can observe, in 2015 the two curves behave in a similar way. However the same is not true for the years 2016-2017. This is probably caused by the fact that the years 2016 and 2017 are quite special when it comes to Trump. For example in 2016 we observe 
