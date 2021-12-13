@@ -176,35 +176,77 @@ We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, 
 
 ### Ethnicity
 
+In modern days, even thought the progress of racial equality has been impressive in the past half century, there is still a long road ahead. The article *Race,Ethnicity, and Political Behavior*, present in *Oxford University Press* suggests that members of ethnic minorities are generally less active in politics, more likely to use contentious forms of political action, and support left-wing political parties that promote minority interests. Our study of ethnicity and politics focus on how people's ethnicities determines their participation in political events. One central concern of this topic is to see if in this case of study, the suggestion from *Race,Ethnicity and Political Behavior* holds and the ethnic minorities were in general less active in politics in comparison to majority populations.
+
 ##### Trump Ethnicity Distribution
 
 <iframe src="Trump_Eth.html" width="100%" height="500">  </iframe>
+
+As we can see from the plot, the majority of Trump's speakers were African Americans but not only that, in fact, most of the top ethnicity speakers were minorities
 
 ##### Clinton Ethnicity Distribution
 
 <iframe src="Clinton_Eth.html" width="100%" height="500">  </iframe>
 
+As we can see from the plot, and in a similar way of Trump's ethnicity distribution, the majority of Clinton's speakers were African Americans and with a lot of the other top ethnicity speakers being minorities too.
+
 ##### Ethnicity Comparison
+
+From just looking at both distribution it seems that the suggestion from the Oxford's Univirsity Press article is not holding in this case of study, but, before taking any hasty conclusions we need to compare both histograms with the original author distribution.
 
 <iframe src="Clinton_Trump_Eth.html" width="100%" height="500">  </iframe>
 
+As we can obeserve in the plot above, the authors distribution is not uniform, making it impossible to take conclusions about the participation ratio between minorities and majorities in this political event. This being said, and observing that the distribution is bias towards some ethnicities, namely African American, and with the addition that racial equality, specially towards Hispanics and African Americans, played a huge role in the this presidencials, in one hand we have Trump with a lot of racist controversies, namely launching speechs and false statistics linking African Americans and Hispanic people with violent crimes, and in other hand Hilary Clinton in which her presidential campaign focused, among other issues, helping and supporting the minorities, it is expected that African Americans and other minor ethnicities played a huge role in the speaker distribution of each politician.
 
+Lets take a look also in a pie chart graph of each distribution in order to have a better sense of each ethnicity's percentage
+
+<iframe src="Eth_Pie_Chart.html" width="100%" height="500">  </iframe>
+
+**CLinton**
+As mentioned before, African America is leading with 47.1% of Clinton's speakers being this ethnicity, followed by Jewish people with 7.62%, American Jews with 5.44%, Italian American with 2.45% and Armenian American with 1.9%.
+
+**Trump**
+In a similar way of CLinton, African America is leading with 46.5% of Trump's speakers being this ethnicity, followed by Jewish people with 7.7%, American Jews with 4.68%, Armenian American with 2.34% and Italian American with 1.79%.
+
+**Speaker Distribution**
+In case of author distribution and as mentioned before, African Americans are in second in terms of Authors ethnicity with 14.6%, losing only for Han Chinese people with 29%, and followed by Armenians with 8.77%, Greeks with 4.05% and Albanians with 3.11%. 
 
 ### Nationality
+
+United States of America is an undeniable global power, therefore, the results of this presidencials would have concequencies all around the globe. This being said, it is clear that this political event drove attention from all around the world. Our study of nationality and politics focus on which nationalities showed more interest in this political event? Which politician is more popular outside the U.S.A. Let's see!
 
 ##### Trump Nationality Distribution
 
 <iframe src="Trump_Nat.html" width="100%" height="500">  </iframe>
 
+As we can see the majority of the speakers are from United States which is exactly what we would expect. However there are several other speaker nationalities which are quite frequent. What about Trump ?
+
 ##### Clinton Nationality Distribution
 
 <iframe src="Clinton_Nat.html" width="100%" height="500">  </iframe>
 
+Despite most of the major nationalities of the speakers are the same, there are some differences between the two distributions. We will visualize in a single plot the two distributions together.
+
 ##### Nationality Comparison
+
+Similar to the ethnicity analysis, in Nationality in order to take proper conclusions, we also need to compare both distributions with the original author distribution.
 
 <iframe src="Clinton_Trump_Nat.html" width="100%" height="500">  </iframe>
 
+As we can observe in the plot above, the authors distributions seems to be better behaved compared to the ethnicity one, it is roughly uniforme and therefore it becomes a good sample to take conclusions about nationality interest in this political event. Lets start comparing both Trump's and Clinton's speakers nationality distributions. There are differences between the distribution of the major nationalities of the people whose quotes are referrred to Trump and Clinton respectively. Indeed, we can see that there are more people with american nationality speaking about Clinton than Trump while for example the people from european union (at least the representative countries we have in the plot) are more likely to speak about Trump rather than Clinton. Also in Canada, and Israel people are speaking more about Trump than Clinton. This suggests that Trump character is more known outside United States of America while Clinton seems to be more popular in her origin country. Additionally when consider the original author distribution, it's clear that some countries like Spain, Italy and France are not represented as much, we can interpret this as a lack of interest of this countries for this event.
 
+Lets take a look also in a pie chart graph of each distribution in order to have a better sense of each nationality's percentage
+
+<iframe src="Eth_Pie_Chart.html" width="100%" height="500">  </iframe>
+
+**CLinton**
+As mentioned before, United States of America is leading with 70.7% of Clinton's speakers being this nationality, followed by United Kingdom with 6.75%, Canada with 2.88%, Australia with 2.43% and Germany with 1.24%.
+
+**Trump**
+In a similar way of Clinton, United States of America is leading with 63.6% of Trump's speakers being this nationality, followed by United Kingdom with 8.34%, Canada with 3.23%, Australia with 2.14% and Israel with 1.73%.
+
+**Speaker Distribution**
+In case of author distribution, United States of America is leading in terms of Authors nationality with 11.1%, followed by France 6.75%, Germany with 6.45%, Japan with 4.58% and United Kingdom with 4.19%. 
 
 ## Machine Learning Interpretable Models
 
