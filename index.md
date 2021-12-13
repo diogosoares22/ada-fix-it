@@ -209,13 +209,39 @@ We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, 
 
 ## Machine Learning Interpretable Models
 
+In order to better interpret what features can be consider predictive, when classifying an author as either a Trump Speaker or a Clinton Speaker, we will train a **Logistic Regression** and a **Least Squares** models.
+
 ### Logistic Regression Model
 
 ![Logistic_Regression](Logistic_Regression.png)
 
+Logistic Regression is usually the better model for classification tasks, however as we can see the results are not great, since we have a big number of non defined values coupled with very high p-value for most coefficients. That being said we can't make any meaningful conclusions, unless for the age predictor.
+
+##### Model Conclusions
+
+By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
+
+- A negative coefficient in the age features tells us that a higher age is more common for Clinton speakers (matches the conclusion in the age analysis), hence we can conclude that the feature is a positive predictor for Clinton speakers and a negative predictor for Trump speakers  
+
 ### Least Squares Model
 
 ![Least_Squares](Linear_Regression.png)
+
+Least Squares typically is used for regression tasks, however it can be quite indicative of a predictor if look at the sign of the coefficients with low p-value. Fortunately the regression analysis provides better results than the previous analysis, allowing us to make some conclusions.
+
+##### Model Conclusions
+
+By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
+
+- Like before, age is a positive predictor for Clinton Speakers and a negative predictor for Trump speakers
+- Nationality from Europe, Asia and South America are positive predictors for Trump Speakers and negative predictors for Clinton Speakers
+- Nationality from North America is a positive predictor for Clinton Speakers and a negative predictor for Clinton Speakers
+- Male gender is a positive predictor for Trump Speakers, conversely Female gender is a positive predictor for Clinton Speakers
+- In terms of religion, believing in Buddism, Christianity, Judaism are positive predictors for Clinton Speakers, whereas believing in Islam or not declaring any religion can be seen as positive predictor for Trump speakers
+- Surprisingly both being a democrat or a republican is a positive predictor for Clinton speakers
+- Not belonging to the democrats and republicans, but to other political party is a positive predictor for Trump speakers
+
+Note: We considered the 6 % significance level for our analysis.  
 
 ## Conclusion
 
