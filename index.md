@@ -1,4 +1,3 @@
-
 ![image](/assets/images/american-gov.jpg)
 
 # Introduction
@@ -34,14 +33,9 @@ For our analysis we used Quotebank dataset containing 178 million unique, speake
 ## Analysis of the evolution of the number of quotes
 
 First of all, let's take a look at the general trend of the number of quotes of the two political opponents over the years 2015-2017, feel free to interact with the plot to discover useful information. The first question which might arise spontanously is the following: who has the bigger number of quotes ? Does it relate to the politician popularity ?
-<head>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<title>1st Analysis</title>
-      <link rel="shortcut icon" type="image/jpg" href="python-logo.png"/>
-   </head>
-<iframe src="General_timeseries_comparison.html" width="100%" height="500">  </iframe>
 
+
+<iframe src="General_timeseries_comparison.html" width="120%" height="600">  </iframe>
 
 
 As we can observe, generally speaking the number of quotes related to Trump is bigger than the number of quotes related to Cliton, but there are some periods in which this is not the case (for example at the beginning of 2015). In addition, as a general trend, we can observe that Clinton number of quotes has decreased a lot from September 2016 until the end of 2017 while the opposite is true for Trump. Which factors are related to this trends ? We will answer this question by describing the main political events in the life  of the two opponents during the years 2015-2017 understanding how these events influenced their media popularity.
@@ -51,7 +45,14 @@ As we can observe, generally speaking the number of quotes related to Trump is b
 At the beginning of 2015 Hillary Clinton was very well known in the United States since she had already covered several political positions such as being the first lady of the United States (1993-2001), being an US senator from New York (2001-2009) and serving as the United States Secretary of State (2009-2013). On the other hand, Donald Trump was mostly known at the beginning of 2015 as a business man and it was not until June 2015 that he announced  his entrance into the race for the White House. But 2015 has been a year often considered a turning point in the recent American political scene since we assist to a rapid increase in Trump popularity and consent.
 We will have a look at the number of quotes referring to the two politicians over the course of the year 2015.
 
-<iframe src="both_timeseries_2015.html" width="100%" height="500" style="border>  </iframe>
+
+<head>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<title>1st Analysis</title>
+      <link rel="shortcut icon" type="image/jpg" href="python-logo.png"/>
+   </head>
+<iframe src="both_timeseries_2015.html" width="120%" height="600">  </iframe>
 
 
 
@@ -68,7 +69,7 @@ Eight days later his polling average climbed to 16.8% (slightly before the first
 The 2016 year was the decisive year for the future of the United States of America since the 58th presidential election was held the 8th November of 2016. Nobody had a clear answer at the question "who will win the next elections ?": even if Trump took a great advantage on the opponent during the summer of 2015, Clinton could count on the historical support of a great amount of Americans. The year 2016 and in particular the few month before elections have been a turning point in the result of the 2016 elections. Which events grabbed the most the media attention during this year ?
 
 
-<iframe src="both_timeseries_2016.html" width="100%" height="500">  </iframe>
+<iframe src="both_timeseries_2016.html" width="120%" height="600">  </iframe>
 
 
 We can observe that the distribution of the number of quotes about the two politician is quite varied: there are some weeks in which the number of quotes is almost zero while in some other weeks there are peaks of thousands of quotes. Moreover we observe that the distribution is very similar for the two politicians: when one politician has very few quotes the other has very few quotes too and the same is for the peaks. Why this happens ? Which events has influenced this distribution ? How did they influence the election results ?
@@ -83,7 +84,7 @@ After the first and the following debates everything was set up: people only had
 After the defeat of Clinton in 2016 elections, Trump was inaugurated as the 45th president of the United States on January 20, 2017. How his early actions influenced the mediatic interest on his character ? Let's have a look at the timeseries.
 
 
-<iframe src="both_timeseries_2017.html" width="100%" height="500">  </iframe>
+<iframe src="both_timeseries_2017.html" width="120%" height="600">  </iframe>
 
 
 
@@ -112,7 +113,7 @@ According to recent studies of Pew Research center about half (48%) of U.S. adul
 We will compare the evolution of the number of quotes during the years 2015-2017 for both Clinton and Trump with Google Trends number of searches in Google of the two politicians in the United States area. For the sake of simplicity we will consider only Trump quotes and Trump trends.
 
 
-<p align="center"><iframe src="google_trends_comparison_Trump.html" width="100%" height="1550"> </iframe></p>
+<p align="center"><iframe src="google_trends_comparison_Trump.html" width="120%" height="1550"> </iframe></p>
 
 
 As we can observe, in 2015 the two curves behave in a similar way. However the same is not true for the years 2016-2017. This is probably caused by the fact that the years 2016 and 2017 are quite special when it comes to Trump. For example in 2016 we observe a great amount of quotes before election periods and a few quotes during election period while the opposite is true when it comes to Google Trends plot. The reason which could explain the behaviour of the two distributions could lie on the fact that even if linked, the mediatic interest and the number of queries are not totally related. For instance, in that case, mediatic attention rose more for previous debates than for election while online interest rose more right after the elections. A similar resoning apply to 2017: events such that the Women’s March are able to attract more the online attention (also thanks to social media) while often this is not the case for newspapers or news websites.
@@ -127,19 +128,19 @@ According to conventional wisdom people tend to become more conservative as they
 
 ##### Trump Age Distribution
 
-<iframe src="Trump_Age.html" width="100%" height="500">  </iframe>
+<iframe src="Trump_Age.html" width="120%" height="500">  </iframe>
 
 As we observe the median age of a Trump speaker is 59 years old, interestingly the interquartile range is only 21 years with the first quartile ending at 48 years old and the third quartile ending at 69 years old, therefore 75 % of the speakers have more than 48 years. Another interesting observation relates to the skewness of the curve in the right and left sides of the distribution, it's noticeable that the skewness is slightly bigger on the right side compared to the left side, one possible explanation is the inherent biological restrictions of the human body, since the global live expectancy is calculated to be around 72 years old.
 
 ##### Clinton Age Distribution
 
-<iframe src="Clinton_Age.html" width="100%" height="500">  </iframe>
+<iframe src="Clinton_Age.html" width="120%" height="500">  </iframe>
 
 As we observe the median age of a Clinton speaker is 60 years old, interestingly the interquartile range is only 22 years with the first quartile ending at 49 years old and the third quartile ending at 71 years old, therefore 75 % of the speakers have more than 49 years. Following the reasoning from the Trump Distribution, here one can also see that the right side of the distribution is more skewed than the right side, however the higher median and third quartile values mean the biological restriction will be even more visible, therefore having a skewness much higher in compared to the left side.
 
 ##### Age Comparison
 
-<iframe src="Clinton_Trump_Age.html" width="100%" height="500">  </iframe>
+<iframe src="Clinton_Trump_Age.html" width="130%" height="900">  </iframe>
 
 From the distribution it could seem that Clinton's speakers are a bit older in general with respect to Trump's speakers, since as we mentioned before Trump's median is one year less than Clinton's median and the third quartile value is two years less than Clinton's as well. Additionally it's also notable that the age distribution deviates from the Authors distribution, maybe we can reason that people in their 40s, 50s and 60s are more prone to talk about politics, maybe one of the reasons why this happens relates to younger people not having enough knowledge of the recent political history, in order to correclty access the state of the country, and older people are not as prone to spend energy talking about such complex topic.
 
@@ -154,19 +155,19 @@ Nowadays, the relationship between gender and politics is a very hot topic. The 
 
 ##### Trump Gender Distribution
 
-<iframe src="Trump_gender.html" width="100%" height="500">  </iframe>
+<iframe src="Trump_gender.html" width="120%" height="500">  </iframe>
 
 Given the number of males and females speaking about Trump, we clearly see a 3.23 male / female ratio, this means for every female that speaks about Trump we have on average 3.23 males speaking about Trump.
 
 ##### Clinton Gender Distribution
 
-<iframe src="Clinton_gender.html" width="100%" height="500">  </iframe>
+<iframe src="Clinton_gender.html" width="120%" height="500">  </iframe>
 
 Given the number of males and females speaking about Clinton, we clearly see a 2.80 male / female ratio, this means for every female that speaks about Clinton, we have on average 2.8 males speaking about Clinton.
 
 ##### Gender Comparison
 
-<iframe src="Clinton_Trump_gender.html" width="100%" height="500">  </iframe>
+<iframe src="Clinton_Trump_gender.html" width="120%" height="500">  </iframe>
 
 As we can see the percentage of men talking about Trump is very similar to the Author Distribution, which means that talking about Trump even though it's maioritarily done by men doesn't reflect a big deviation from the distribution seen on other topics. However, interestingly talking about Clinton deviates a lot from the Author Distribution and from talking about Trump, one possible explanation for this phenomena can relate to the feminist movement, since Hillary Clinton would be the first female President of the US.
 
@@ -192,9 +193,13 @@ As we can see from the plot, and in a similar way of Trump's ethnicity distribut
 
 ##### Ethnicity Comparison
 
+<<<<<<< HEAD
 From just looking at both distribution it seems that the suggestion from the Oxford's Univirsity Press article is not holding in this case of study, but, before taking any hasty conclusions we need to compare both histograms with the original author distribution.
 
 <iframe src="Clinton_Trump_Eth.html" width="100%" height="500">  </iframe>
+=======
+<iframe src="Eth_Pie_Chart.html" width="120%" height="700">  </iframe>
+>>>>>>> 81a3b7150a25610c2598ada6ac936469b5cffa43
 
 As we can obeserve in the plot above, the authors distribution is not uniform, making it impossible to take conclusions about the participation ratio between minorities and majorities in this political event. This being said, and observing that the distribution is bias towards some ethnicities, namely African American, and with the addition that racial equality, specially towards Hispanics and African Americans, played a huge role in the this presidencials, in one hand we have Trump with a lot of racist controversies, namely launching speechs and false statistics linking African Americans and Hispanic people with violent crimes, and in other hand Hilary Clinton in which her presidential campaign focused, among other issues, helping and supporting the minorities, it is expected that African Americans and other minor ethnicities played a huge role in the speaker distribution of each politician.
 
@@ -250,13 +255,39 @@ In case of author distribution, United States of America is leading in terms of 
 
 ## Machine Learning Interpretable Models
 
+In order to better interpret what features can be consider predictive, when classifying an author as either a Trump Speaker or a Clinton Speaker, we will train a **Logistic Regression** and a **Least Squares** models.
+
 ### Logistic Regression Model
 
 ![Logistic_Regression](Logistic_Regression.png)
 
+Logistic Regression is usually the better model for classification tasks, however as we can see the results are not great, since we have a big number of non defined values coupled with very high p-value for most coefficients. That being said we can't make any meaningful conclusions, unless for the age predictor.
+
+##### Model Conclusions
+
+By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
+
+- A negative coefficient in the age features tells us that a higher age is more common for Clinton speakers (matches the conclusion in the age analysis), hence we can conclude that the feature is a positive predictor for Clinton speakers and a negative predictor for Trump speakers  
+
 ### Least Squares Model
 
 ![Least_Squares](Linear_Regression.png)
+
+Least Squares typically is used for regression tasks, however it can be quite indicative of a predictor if look at the sign of the coefficients with low p-value. Fortunately the regression analysis provides better results than the previous analysis, allowing us to make some conclusions.
+
+##### Model Conclusions
+
+By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
+
+- Like before, age is a positive predictor for Clinton Speakers and a negative predictor for Trump speakers
+- Nationality from Europe, Asia and South America are positive predictors for Trump Speakers and negative predictors for Clinton Speakers
+- Nationality from North America is a positive predictor for Clinton Speakers and a negative predictor for Clinton Speakers
+- Male gender is a positive predictor for Trump Speakers, conversely Female gender is a positive predictor for Clinton Speakers
+- In terms of religion, believing in Buddism, Christianity, Judaism are positive predictors for Clinton Speakers, whereas believing in Islam or not declaring any religion can be seen as positive predictor for Trump speakers
+- Surprisingly both being a democrat or a republican is a positive predictor for Clinton speakers
+- Not belonging to the democrats and republicans, but to other political party is a positive predictor for Trump speakers
+
+Note: We considered the 6 % significance level for our analysis.  
 
 ## Conclusion
 
