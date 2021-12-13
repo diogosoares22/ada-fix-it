@@ -1,4 +1,4 @@
-
+{{ content }}
 ![image](/assets/images/american-gov.jpg)
 
 # Introduction
