@@ -188,7 +188,7 @@ We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, 
 
 ##### Ethnicity Comparison
 
-<iframe src="Eth_Pie_Chart.html" width="120%" height="500">  </iframe>
+<iframe src="Eth_Pie_Chart.html" width="120%" height="700">  </iframe>
 
 
 
