@@ -1,4 +1,3 @@
-{{ Data driven analysis of political figures popularity }}
 ![image](/assets/images/american-gov.jpg)
 
 # Introduction
