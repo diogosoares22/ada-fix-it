@@ -58,7 +58,7 @@ We will have a look at the number of quotes referring to the two politicians ove
 <title>1st Analysis</title>
       <link rel="shortcut icon" type="image/jpg" href="python-logo.png"/>
    </head>
-<iframe src="Clinton_Trump_2015.html" width="100%" height="500">  </iframe>
+<iframe src="Clinton_Trump_2015.html width="100%" height="500">  </iframe>
 
 
 
