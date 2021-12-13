@@ -37,8 +37,8 @@ First of all, let's take a look at the general trend of the number of quotes of 
 
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
-    width="300"
-    height="200"
+    width="120%"
+    height="600"
     src="General_timeseries_comparison.html">
 </iframe>
 
