@@ -52,7 +52,7 @@ We will have a look at the number of quotes referring to the two politicians ove
 <title>1st Analysis</title>
       <link rel="shortcut icon" type="image/jpg" href="python-logo.png"/>
    </head>
-<iframe src="Clinton_Trump_2015.html" width="120%" height="600">  </iframe>
+<iframe src="both_timeseries_2015.html" width="120%" height="600">  </iframe>
 
 
 
@@ -69,7 +69,7 @@ Eight days later his polling average climbed to 16.8% (slightly before the first
 The 2016 year was the decisive year for the future of the United States of America since the 58th presidential election was held the 8th November of 2016. Nobody had a clear answer at the question "who will win the next elections ?": even if Trump took a great advantage on the opponent during the summer of 2015, Clinton could count on the historical support of a great amount of Americans. The year 2016 and in particular the few month before elections have been a turning point in the result of the 2016 elections. Which events grabbed the most the media attention during this year ?
 
 
-<iframe src="Clinton_Trump_2016.html" width="120%" height="600">  </iframe>
+<iframe src="both_timeseries_2016.html" width="120%" height="600">  </iframe>
 
 
 We can observe that the distribution of the number of quotes about the two politician is quite varied: there are some weeks in which the number of quotes is almost zero while in some other weeks there are peaks of thousands of quotes. Moreover we observe that the distribution is very similar for the two politicians: when one politician has very few quotes the other has very few quotes too and the same is for the peaks. Why this happens ? Which events has influenced this distribution ? How did they influence the election results ?
@@ -84,7 +84,7 @@ After the first and the following debates everything was set up: people only had
 After the defeat of Clinton in 2016 elections, Trump was inaugurated as the 45th president of the United States on January 20, 2017. How his early actions influenced the mediatic interest on his character ? Let's have a look at the timeseries.
 
 
-<iframe src="Clinton_Trump_2017.html" width="120%" height="600">  </iframe>
+<iframe src="both_timeseries_2017.html" width="120%" height="600">  </iframe>
 
 
 
