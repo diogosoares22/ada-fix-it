@@ -60,6 +60,7 @@ First of all, let's take a look at the **general trend** of the number of quotes
 
 <div style="text-align: center"><iframe src="assets/plots/General_timeseries_comparison.html" width="120%" height="600"></iframe></div>
 
+<p align="center"><iframe src="assets/plots/General_timeseries_comparison.html" width="120%" height="600"></iframe></p>
 
 <iframe src="assets/plots/General_timeseries_comparison.html" width="120%" height="600"> </iframe>
 
