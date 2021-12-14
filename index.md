@@ -51,6 +51,7 @@ After the selection of the quotes related to Trump and Clinton, we have the foll
 {: .tablelines}
 
 
+
 # Analysis of the evolution of the number of quotes
 -----------------
 
@@ -65,7 +66,7 @@ As we can observe, generally speaking the number of quotes related to Trump is b
 
 ## Year 2015: The rise of Trump consent
 
-**At the beginning of 2015 Hillary Clinton was very well known in the United States**, since she had already covered several political positions such as being the first lady of the United States (1993-2001), being an US senator from New York (2001-2009) and serving as the United States Secretary of State (2009-2013). On the other hand, **Donald Trump was mostly known at the beginning of 2015 as a business man** and it was not until June 2015 that he announced his entrance into the race for the White House. Interestingly 2015 has been a year often considered as a turning point in the recent American political scene since **we assist a rapid increase of Trump popularity**.
+**At the beginning of 2015 Hillary Clinton was very well known in the United States**, since she had already covered several political positions such as being the first lady of the United States (1993-2001), being an US senator from New York (2001-2009) and serving as the United States Secretary of State (2009-2013). On the other hand, **Donald Trump was mostly known at the beginning of 2015 as a business man** and it was not until June 2015 that he announced his entrance into the race for the White House. Interestingly, 2015 has been a year often considered as a turning point in the recent American political scene since **we assist a rapid increase of Trump popularity**.
 We will take a look at the number of quotes referring to the two politicians over the course of the year 2015.
 
 
@@ -73,9 +74,9 @@ We will take a look at the number of quotes referring to the two politicians ove
 
 
 
-The number of quotes at the beginning of 2015 reflects perfectly the popularity of the two politicians, Trump has very few quotes referring to him until the half of May while Clinton has a much more consistent number of quotes referred to her from the beginning of 2015.
+The number of quotes at the beginning of 2015 reflects perfectly the popularity of the two politicians, Trump has very few quotes referring to him until the half of June while Clinton has a much more consistent number of quotes referred to her from the beginning of 2015.
 
-Apparently, **until the summer a very small visibility was given to Trump from the media while Clinton visibility was quite high during that period**, with some small peaks at the beginning of March and at the beginning of April. The two small peaks are probably caused by the controversy arisen in March 2015 when the State's Department inspector general revealed that Clinton had used personal email accounts on a non-government, privately maintained server exclusively, instead of email accounts maintained on federal government servers when conducting official business during her tenure as secretary of state. This event will mark the political carreer of Hillary and will be one of the main discussion points during the debates for the 2016 elections.
+Apparently, **until the summer a very small visibility was given to Trump from the media while Clinton visibility was quite high during that period**, with some small peaks at the beginning of March and at the beginning of April. The two small peaks are probably caused by the **controversy arisen in March 2015** when the State's Department inspector general revealed that Clinton had used personal email accounts on a non-government, privately maintained server exclusively, instead of email accounts maintained on federal government servers when conducting official business during her tenure as secretary of state. This event will mark the political carreer of Hillary and will be one of the main discussion points during the debates for the 2016 elections.
 
 Despite the initial lack of quotes referring to Trump, he succeeded to capture an increasing media attention from the beginning of July this is why this period has often been called the summer of Trump. Indeed, Trump announced he was going to run for the presidency at 15th of June 2015 (small peak in the timeseries) and from that moment his consent started to rise. According to researches, his approval rating spiked on 12th of July 2015, when he accused Mexicans of "killing us at the border" at a mass rally in Phoenix.
 
