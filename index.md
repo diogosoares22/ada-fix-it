@@ -32,8 +32,8 @@ In our analysis we will focus on the years 2015-2017 and we will:
 ## Data in numbers
 
 For our analysis we used **Quotebank dataset** and some data extracted from **Google trends**.
-![image](assets/images/google_trends.png)
-![image](assets/images/google_trends.png)
+![image](assets/images/slide_trends.png)
+![image](assets/images/slide_quotebank.png)
 <style>
 .tablelines table, .tablelines td, .tablelines th {
         border: 1px solid black;
