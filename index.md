@@ -275,7 +275,7 @@ By looking at the coefficients with low p-value and their respective sign we can
 
 - A negative coefficient in the age features tells us that a higher age is more common for Clinton speakers (matches the conclusion in the age analysis), hence we can conclude that the feature is a positive predictor for Clinton speakers and a negative predictor for Trump speakers  
 
-### Least Squares Model
+## Least Squares Model
 
 ![Least_Squares](assets/plots/Linear_Regression.png)
 
