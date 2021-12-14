@@ -31,7 +31,9 @@ In our analysis we will focus on the years 2015-2017 and we will:
 
 ## Data in numbers
 
-For our analysis we used Quotebank dataset containing 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over 377 thousand web domains between 2015-2020. After a careful selection of the quotes we could be able to collect the following data for our analysis.
+For our analysis we used **Quotebank dataset** and some data extracted from **Google trends**.
+![image](assets/images/google_trends.png)
+![image](assets/images/google_trends.png)
 <style>
 .tablelines table, .tablelines td, .tablelines th {
         border: 1px solid black;
