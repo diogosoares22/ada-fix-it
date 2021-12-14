@@ -58,7 +58,7 @@ After the selection of the quotes related to Trump and Clinton, we have the foll
 First of all, let's take a look at the **general trend** of the number of quotes of the two political opponents over the years 2015-2017, feel free to **interact** with the plot to discover useful information. The first question which might arise spontanously is the following: who has the bigger number of quotes ? Does it relate to the politician popularity ?
 
 
-<div style="text-align: center"><iframe src="assets/plots/General_timeseries_comparison.html" width="500" height="600"></iframe></div>
+<div style="text-align: center"><iframe src="assets/plots/General_timeseries_comparison.html" width="1200" height="600"></iframe></div>
 
 <iframe src="assets/plots/General_timeseries_comparison.html" width="120%" height="600"> </iframe>
 
