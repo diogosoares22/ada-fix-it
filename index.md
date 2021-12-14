@@ -13,20 +13,20 @@ use-site-title: true
 
 -----------------
 
+
 ## Abstract
 
-In the 21st century **media coverage** is a crucial factor for political figures. The public is “meant” to believe everything they are told and not question it, so that people are easily convinced by what they read on newspapers, news websites or social media. Therefore it could be of primarly interest to study and understand **media interest** in different politicians over a specific time period since this interest is capable of influencing the thoughts of billions of people.
-
+In the 21st century **media coverage** is a crucial factor for political figures. As we saw in the recent *Cambridge Analytica* scandal, the public can often be influenced by what they read on newspapers, news websites or social media. Therefore it could be of primarly interest to study and understand **media interest** in different politicians over a specific time period since this interest is capable of affect the thoughts of billions of people.
 
 ## Methods
 
 We could have a rough measure of the above mentioned interest by studying **the number of quotes published on newspapers or news websites** referred to a given politician on a given period.
 In our analysis we will focus on the years 2015-2017 and we will:
-* discuss and analyze the **evolution of the number of quotes** referred to two of the main politicians of the American scene over the past few years: Donald Trump and Hillary Clintone
+* discuss and analyze the **evolution of the number of quotes** referred to two of the main politicians of the American scene over the past few years: Donald Trump and Hillary Clinton
 * tell the story of the American political scene of these years by comparing it to the evolution of the number of quotes referring to the two politicians; we will identify **which factors caused the peaks** in the number of quotes or a lack of them.
 * compare the media popularity of the two politicians over the years 2015-2017.
 * compare our results with **Google Trends** to see if the conventional media outlets capture the online interest as well.
-* try to understand which are the **main differences between the speakers** whose quotes refer to Trump and the one whose quotes refer to Clinton. 
+* try to understand which are the **main differences between the speakers** whose quotes refer to Trump and the ones whose quotes refer to Clinton. 
 
 
 ## Data in numbers
@@ -61,12 +61,12 @@ First of all, let's take a look at the **general trend** of the number of quotes
 <iframe src="assets/plots/General_timeseries_comparison.html" width="120%" height="600"> </iframe>
 
 
-As we can observe, generally speaking the number of quotes related to Trump is bigger than the number of quotes related to Cliton, but there are some periods in which this is not the case (for example at the beginning of 2015). In addition, as a general trend, we can observe that Clinton number of quotes has decreased a lot from September 2016 until the end of 2017 while the opposite is true for Trump. Which factors are related to this trends ? We will answer this question by describing the main political events in the life  of the two opponents during the years 2015-2017, understanding how these events influenced their media popularity.
+As we can observe, generally speaking the number of quotes related to Trump is bigger than the number of quotes related to Cliton, but there are some periods in which this is not the case (for example at the beginning of 2015). In addition, as a general trend, we can observe that Clinton number of quotes has decreased a lot from September 2016 until the end of 2017 while the opposite is true for Trump. Which factors are related to this trends ? We will answer this question by describing the main political events in the life of the two opponents during the years 2015-2017, understanding how these events influenced their media popularity.
 
 ## Year 2015: The rise of Trump consent
 
-**At the beginning of 2015 Hillary Clinton was very well known in the United States** since she had already covered several political positions such as being the first lady of the United States (1993-2001), being an US senator from New York (2001-2009) and serving as the United States Secretary of State (2009-2013). On the other hand, **Donald Trump was mostly known at the beginning of 2015 as a business man** and it was not until June 2015 that he announced his entrance into the race for the White House. But 2015 has been a year often considered a turning point in the recent American political scene since **we assist to a rapid increase of Trump popularity and consent**.
-We will have a look at the number of quotes referring to the two politicians over the course of the year 2015.
+**At the beginning of 2015 Hillary Clinton was very well known in the United States**, since she had already covered several political positions such as being the first lady of the United States (1993-2001), being an US senator from New York (2001-2009) and serving as the United States Secretary of State (2009-2013). On the other hand, **Donald Trump was mostly known at the beginning of 2015 as a business man** and it was not until June 2015 that he announced his entrance into the race for the White House. Interestingly 2015 has been a year often considered as a turning point in the recent American political scene since **we assist a rapid increase of Trump popularity**.
+We will take a look at the number of quotes referring to the two politicians over the course of the year 2015.
 
 
 <iframe src="assets/plots/both_timeseries_2015.html" width="120%" height="600">  </iframe>
@@ -75,25 +75,25 @@ We will have a look at the number of quotes referring to the two politicians ove
 
 The number of quotes at the beginning of 2015 reflects perfectly the popularity of the two politicians, Trump has very few quotes referring to him until the half of May while Clinton has a much more consistent number of quotes referred to her from the beginning of 2015.
 
-Apparently, **until the summer a very small visibility was given to Trump in media while Clinton visibility was quite high during that period**, with some small peaks at the beginning of March and at the beginning of April. The two small peaks are probably caused by the controversy arisen in March 2015 when the State Department's inspector general revealed that Clinton had used personal email accounts on a non-government, privately maintained server exclusively, instead of email accounts maintained on federal government servers when conducting official business during her tenure as secretary of state. This event will mark the political carreer of Hillary and will be one of the main discussion points during the debates for the 2016 elections.
+Apparently, **until the summer a very small visibility was given to Trump from the media while Clinton visibility was quite high during that period**, with some small peaks at the beginning of March and at the beginning of April. The two small peaks are probably caused by the controversy arisen in March 2015 when the State's Department inspector general revealed that Clinton had used personal email accounts on a non-government, privately maintained server exclusively, instead of email accounts maintained on federal government servers when conducting official business during her tenure as secretary of state. This event will mark the political carreer of Hillary and will be one of the main discussion points during the debates for the 2016 elections.
 
-Despite the initial lack of quotes referring to Trump, he succeeded to capture an increasing media attention from the beginning of July this is why this period has often been called the summer of Trump. Indeed, Trump announced he was going to candidate as the president of the United States the 15th June 2015 (small peak in the timeseries) and from that moment his consent started to rise. According to researches, his approval rating spiked on 12 July 2015, when he accused Mexicans of "killing us at the border" at a mass rally in Phoenix.
+Despite the initial lack of quotes referring to Trump, he succeeded to capture an increasing media attention from the beginning of July this is why this period has often been called the summer of Trump. Indeed, Trump announced he was going to run for the presidency at 15th of June 2015 (small peak in the timeseries) and from that moment his consent started to rise. According to researches, his approval rating spiked on 12th of July 2015, when he accused Mexicans of "killing us at the border" at a mass rally in Phoenix.
 
-Eight days later his polling average climbed to 16.8% (slightly before the first detected peaks in the timeseries). We also observe that the second detected and third peak for Trump and other minor peaks for Clinton are respectively in the weeks of the first and second republican debate held the 7th of August and the 17th of September. As we can observe, despite the peaks are visible for both the opponents, the Trump's one are bigger. This shows how his character captured more the interest of the media compared to Hillary Clinton. For instance the famous speech against terrorism pronounced by Clinton the 11th November 2015 (first detected peak for Clinton) grabbed some attention but the controversial want of Trump of banning all the muslim entering US (8th December 2015) did it in a way more substantial way.
+Eight days later his polling average climbed to 16.8% (slightly before the first detected peaks in the timeseries). We also observe that the second and third peaks for Trump and other minor peaks for Clinton are respectively in the weeks of the first and second republican debate held the 7th of August and the 17th of September. As we can observe, despite the peaks are visible for both the opponents, the Trump's one are bigger. This shows how his character captured more the interest of the media compared to Hillary Clinton. For instance, the famous speech against terrorism pronounced by Clinton the 11th November 2015 (first detected peak for Clinton) grabbed some attention but the controversial desire of Trump to ban all the muslim entering US (8th December 2015) did it in a more substantial way.
 
 ## Year 2016: The year of the truth
 
-The 2016 year was the decisive year for the future of the United States of America since the 58th presidential election was held the 8th November of 2016. Nobody had a clear answer at the question "who will win the next elections ?": even if Trump took a great advantage on the opponent during the summer of 2015, Clinton could count on the historical support of a great amount of Americans. The year 2016 and in particular the few month before elections have been a turning point in the result of the 2016 elections. Which events grabbed the most the media attention during this year ?
+The 2016 year was the decisive year for the future of the United States of America since the 58th presidential election was held the 8th November of 2016. Nobody had a clear answer for the question "who will win the next elections ?": even if Trump took a great advantage on the opponent during the summer of 2015, Clinton could count on the historical support of a great amount of Americans. The year 2016 and in particular the few month before elections have been a turning point in the result of the 2016 elections. Which events grabbed the most the media attention during this year ?
 
 
 <iframe src="assets/plots/both_timeseries_2016.html" width="120%" height="600">  </iframe>
 
 
-We can observe that the distribution of the number of quotes about the two politician is quite varied: there are some weeks in which the number of quotes is almost zero while in some other weeks there are peaks of thousands of quotes. Moreover we observe that the distribution is very similar for the two politicians: when one politician has very few quotes the other has very few quotes too and the same is for the peaks. Why this happens ? Which events has influenced this distribution ? How did they influence the election results ?
+We can observe that the distribution of the number of quotes about the two politician is quite varied: there are some weeks in which the number of quotes is almost zero while in other weeks there are peaks of thousands of quotes. Moreover we observe that the distribution is very similar for the two politicians: when one politician has very few quotes the other has very few quotes too and the same is for the peaks. Why this happens ? Which events has influenced this distribution ? How did they influence the election results ?
 
-The media interest in Trump the week the 21th february 2016 could probably be related to the feud between Trump and pope Francis (18 February). The pope indeed pronounced the following words "A person who thinks only about building walls, wherever they may be, and not building bridges, is not Christian." and Trump responded quickly to the pontiff "No leader, especially a religious leader, has the right to question another man’s religion or faith.”. In the following months Trump continued his political campaign attacking the rival: Trump called his likely opponent "unqualified", and said she "should suffer" for her use of a private email server in the beginning of May (big peak for both Trump and Clinton). On top of that a few days after, precisely the second of May, Trump accused China of "raping" US with her trade policy and this event had also for sure grabbed media attention.
+The media interest in Trump in the week of 21th february 2016 could probably be related to the feud between Trump and pope Francis (18 February). The pope indeed pronounced the following words "A person who thinks only about building walls, wherever they may be, and not building bridges, is not Christian." and Trump responded quickly to the pontiff "No leader, especially a religious leader, has the right to question another man’s religion or faith.”. In the following months Trump continued his political campaign attacking the rival: Trump called his likely opponent "unqualified", and said she "should suffer" for her use of a private email server in the beginning of May (big peak for both Trump and Clinton). On top of that a few days after, precisely the second of May, Trump accused China of "raping" US with her trade policy and this event also grabbed a lot of media attention.
 
-The main political events which happened in the following months were the Republican and Democratic national conventions respectively the 18th-21th of July and the 25th-28th of July (two highest peak of the year). In the Republican national convention Trump won the party’s nomination to Republicans’ disbelief,, Trump accepted the party nomination: “Nobody knows the system better than me, which is why I alone can fix it.”. During the Democratic one Clinton became the first woman to accept the nomination of a major party in the US: “Standing here as my mother’s daughter, and my daughter’s mother, I’m so happy this day has come.” She added: “When any barrier falls in America, for anyone, it clears the way for everyone.”. From that moment on the two rivals were decided and the following months, marked by public debates, have been decisive for the result of the elections. The first presidential debate was held the 26th September in New York. It was the most watched debate in American history, with at least 80m people tuning in. Clinton came prepared, Trump not so much. She baited him with charges of racism, sexism and tax avoidance and he took the bait.
+The main political events which happened in the following months were the Republican and Democratic national conventions respectively the 18th-21th of July and the 25th-28th of July (representing the two highest peaks of the year). In the Republican national convention Trump won the party’s nomination to Republicans’ disbelief, Trump accepted the party nomination: “Nobody knows the system better than me, which is why I alone can fix it.”. During the Democratic one Clinton became the first woman to accept the nomination of a major party in the US: “Standing here as my mother’s daughter, and my daughter’s mother, I’m so happy this day has come.” She added: “When any barrier falls in America, for anyone, it clears the way for everyone.”. From that moment on the two rivals were decided and the following months, marked by public debates, have been decisive for the result of the elections. The first presidential debate was held the 26th September in New York. It was the most watched debate in American history, with at least 80 million people tuning in. Clinton came prepared, Trump not so much. She baited him with charges of racism, sexism and tax avoidance and he took the bait.
 After the first and the following debates everything was set up: people only had to vote and to wait for the results. Election day arrived soon (8th November 2016). With a big surprise Trump defeated the opponent Hillary Clinton despite Clinton received a slightly higher number of votes. From that moment on Clinton's popularity has decreased a lot in media quotes while Trump's one has increased drastically right after the elections with a great interest of the media on him around the 15th of December.
 
 ## Year 2017: The rise of a new discontent
@@ -105,13 +105,13 @@ After the defeat of Clinton in 2016 elections, Trump was inaugurated as the 45th
 
 
 
-As we can observe the mediatic popularity of Clinton measured by the number of quotes dropped drastically, on the other hand, Trump's one has generally increased with respet to the two previous years. This could be caused by the fact that the first year of presidency has been full of a variety of controversies involving Trump.
+As we can observe the mediatic popularity of Clinton measured by the number of quotes dropped drastically, on the other hand, Trump's one has generally increased with respect to the two previous years. This could be caused by the fact that the first year of presidency has been full of a variety of controversies involving Trump.
 
 One day after being sworn in as the 45th president of United States (21th Jan), the Women’s March took place. This worldwide protest was prompted by the fact that several of Trump's statements were considered by many as anti-women or otherwise offensive to women, shortly after, the 27th of Jan, Trump signed the first travel ban executive order, halting Syrian refugees and barring citizens from seven countries for 90 days. This events, and other controversies in the first two weeks, led to the first peak(beginning of February) in the Trump timeseries. Another protest happens the 16th February the so called Day Without Immigrants 2017 protests held throughout the United States to demonstrate the importance of immigration. This other protest is probably the cause of the other spike in the Trump timeseries in the third week of February.
 
-We continue then to assist to an increase of number of quotes referred to Trump while the one related to Clinton stays close to zero until the second week of May, indeed the 3rd of May Hillary Clinton was the featured speaker at the Women for Women International were she among other topics, blamed Russian interference in the US election for her loss and 10th the meeting of Trump and the Russian Foreign Minister Ambassador took date.
+We continue then to assist to an increase of number of quotes referred to Trump while the one related to Clinton stays close to zero until the second week of May, indeed the 3rd of May Hillary Clinton was the featured speaker at the Women for Women International were she among other topics, blamed Russian interference in the US election for her loss and in the 10th of May the meeting of Trump and the Russian Foreign Minister Ambassador took date.
 
-Th biggest peak in the number of quotes referred to Trump was during the third week of August, indeed in that period (the week before) the Unite the Right rally: a white supremacist rally took place in Charlottesville, Virginia. Far-right groups participated, including self-identified members of the alt-right, neo-Confederates, neo-fascists,white nationalists and neo-Nazis. Some groups chanted racist and antisemitic slogans and carried weapons, Nazi and neo-Nazi symbols. Despite Trump condamned the acts in Charlottesville, many people linked the participants of the rally to Trump supporters and the discontent started to rise.
+Th biggest peak in the number of quotes referred to Trump was during the third week of August, indeed in that period (the week before) the Unite the Right rally: a white supremacist rally took place in Charlottesville, Virginia. Far-right groups participated, including self-identified members of the alt-right, neo-Confederates, neo-fascists,white nationalists and neo-Nazis. Some groups chanted racist and antisemitic slogans and carried weapons, Nazi and neo-Nazi symbols. Despite Trump condemning the acts in Charlottesville, many people linked the participants of the rally to Trump supporters and the discontent started to rise.
 
 At the end of august 2017, according to the results of the poll of NCB news:
 * 39 percent of Americans approve of Trump’s job as president (compared with 59 percent who disapprove)
@@ -122,7 +122,7 @@ Therefore, despite the number of quotes referring to Trump in 2017 is high, most
 
 ## Google Trends comparison
 
-According to recent studies of Pew Research center about half (48%) of U.S. adults say they get news from social media “often” or “sometimes”. As a consequence, nowadays, it is not sufficient anymore to study the popularity of a given character on media but it could be useful to study his popularity also in social media and more in general online. Therefore, a question which might arise spontanously is the following: is the mediatic interest linked to the online interest ? To answer this question we will use data from Google trends
+According to recent studies of Pew Research center about half (48%) of U.S. adults say they get news from social media “often” or “sometimes”. As a consequence, nowadays, it is not sufficient anymore to study the popularity of a given character on conventional media, we need to study his popularity also in social media and more in general online. Therefore, a question which might arise spontanously is the following: is the mediatic interest linked to the online interest ? To answer this question we will use data from Google trends
 
 We will compare the evolution of the number of quotes during the years 2015-2017 for both Clinton and Trump with Google Trends number of searches in Google of the two politicians in the United States area. For the sake of simplicity we will consider only Trump quotes and Trump trends.
 
@@ -130,7 +130,7 @@ We will compare the evolution of the number of quotes during the years 2015-2017
 <iframe src="assets/plots/google_trends_comparison_Trump.html" width="120%" height="1550"> </iframe>
 
 
-As we can observe, in 2015 the two curves behave in a similar way. However the same is not true for the years 2016-2017. This is probably caused by the fact that the years 2016 and 2017 are quite special when it comes to Trump. For example in 2016 we observe a great amount of quotes before election periods and a few quotes during election period while the opposite is true when it comes to Google Trends plot. The reason which could explain the behaviour of the two distributions could lie on the fact that even if linked, the mediatic interest and the number of queries are not totally related. For instance, in that case, mediatic attention rose more for previous debates than for election while online interest rose more right after the elections. A similar resoning apply to 2017: events such that the Women’s March are able to attract more the online attention (also thanks to social media) while often this is not the case for newspapers or news websites.
+As we can observe, in 2015 the two curves behave in a similar way. However the same is not true for the years 2016-2017. This is probably caused by the fact that the years 2016 and 2017 are quite special when it comes to Trump. For example in 2016 we observe a great amount of quotes before election periods and a few quotes during election period, while the opposite is true when it comes to Google Trends plot. The reason which could explain the behaviour of the two distributions could lie on the fact that even if linked, the mediatic interest and the number of queries are not totally related. For instance, in that case, mediatic attention rose more for previous debates than for election while online interest rose more right after the elections. A similar resoning apply to 2017: events such that the Women’s March are able to attract more the online attention (also thanks to social media) while often this is not the case for newspapers or news websites.
 
 
 # Analysis of speaker attributes
@@ -180,7 +180,7 @@ Nowadays, the relationship between gender and politics is a very hot topic. The 
 
 <iframe src="assets/plots/Trump_gender.html" width="120%" height="500">  </iframe>
 
-Given the number of males and females speaking about Trump, we clearly see a 3.23 male / female ratio, this means for every female that speaks about Trump we have on average 3.23 males speaking about Trump.
+Given the number of males and females speaking about Trump, we clearly see a 3.23 male / female ratio, this means that for every female that speaks about Trump we have on average 3.23 males speaking about Trump.
 
 ### Clinton Gender Distribution
 
@@ -192,7 +192,7 @@ Given the number of males and females speaking about Clinton, we clearly see a 2
 
 <iframe src="assets/plots/Clinton_Trump_gender.html" width="120%" height="500">  </iframe>
 
-As we can see the percentage of men talking about Trump is very similar to the Author Distribution, which means that talking about Trump even though it's maioritarily done by men doesn't reflect a big deviation from the distribution seen on other topics. However, interestingly talking about Clinton deviates a lot from the Author Distribution and from talking about Trump, one possible explanation for this phenomena can relate to the feminist movement, since Hillary Clinton would be the first female President of the US.
+As we can see the percentage of men talking about Trump is very similar to the Author Distribution, which means that talking about Trump even though it's maioritarily done by men doesn't reflect a big deviation from the distribution seen on other topics. However, interestingly talking about Clinton deviates a lot from the Author Distribution and from talking about Trump, one possible explanation for this phenomena can relate to the feminist movement, since Hillary Clinton could possibly be the first female President of the US at the moment.
 
 ### Is the difference statistical significant?
 
@@ -203,7 +203,7 @@ We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, 
 
 -----------------
 
-In modern days, even thought the progress of racial equality has been impressive in the past half century, there is still a long road ahead. The article *Race,Ethnicity, and Political Behavior*, present in *Oxford University Press* suggests that members of ethnic minorities are generally less active in politics, more likely to use contentious forms of political action, and support left-wing political parties that promote minority interests. Our study of ethnicity and politics focus on how people's ethnicities determines their participation in political events. One central concern of this topic is to see if in this case of study, the suggestion from *Race,Ethnicity and Political Behavior* holds and the ethnic minorities were in general less active in politics in comparison to majority populations.
+In modern days, even thought the progress of racial equality has been impressive in the past half century, there is still a long road ahead. The article *Race,Ethnicity, and Political Behavior*, presented in the *Oxford University Press* suggests that members of ethnic minorities are generally less active in politics, more likely to use contentious forms of political action, and support left-wing political parties that promote minority interests. Our study of ethnicity and politics focus on how people's ethnicities determines their participation in political events. We will see if the anlysis from *Race,Ethnicity and Political Behavior* holds and the ethnic minorities were in general less active in politics in comparison to majority populations for this case study.
 
 ### Trump Ethnicity Distribution
 
@@ -223,20 +223,20 @@ From just looking at both distribution it seems that the suggestion from the Oxf
 
 <iframe src="assets/plots/Clinton_Trump_Eth.html" width="100%" height="500">  </iframe>
 
-As we can obeserve in the plot above, the authors distribution is not uniform, making it impossible to take conclusions about the participation ratio between minorities and majorities in this political event. This being said, and observing that the distribution is bias towards some ethnicities, namely African American, and with the addition that racial equality, specially towards Hispanics and African Americans, played a huge role in the this presidencials, in one hand we have Trump with a lot of racist controversies, namely launching speechs and false statistics linking African Americans and Hispanic people with violent crimes, and in other hand Hilary Clinton in which her presidential campaign focused, among other issues, helping and supporting the minorities, it is expected that African Americans and other minor ethnicities played a huge role in the speaker distribution of each politician.
+As we can observe in the plot above, the authors distribution is not uniform, making it impossible to take conclusions about the participation ratio between minorities and majorities in this political event. This being said, and observing that the distribution is bias towards some ethnicities, namely African American, and with the addition that racial equality, specially towards Hispanics and African Americans, played a huge role in the this presidencials, in one hand we have Trump with a lot of racist controversies, namely launching speechs and false statistics linking African Americans and Hispanic people with violent crimes, and in other hand Hilary Clinton in which her presidential campaign focused, among other issues, helping and supporting the minorities, it is expected that African Americans and other minor ethnicities played a huge role in the speaker distribution of each politician.
 
 Lets take a look also in a pie chart graph of each distribution in order to have a better sense of each ethnicity's percentage
 
 <iframe src="assets/plots/Eth_Pie_Chart.html" width="100%" height="500">  </iframe>
 
 **CLinton**
-As mentioned before, African America is leading with 47.1% of Clinton's speakers being this ethnicity, followed by Jewish people with 7.62%, American Jews with 5.44%, Italian American with 2.45% and Armenian American with 1.9%.
+As mentioned before, African American is leading with 47.1% of Clinton's speakers being this ethnicity, followed by Jewish people with 7.62%, American Jews with 5.44%, Italian American with 2.45% and Armenian American with 1.9%.
 
 **Trump**
-In a similar way of CLinton, African America is leading with 46.5% of Trump's speakers being this ethnicity, followed by Jewish people with 7.7%, American Jews with 4.68%, Armenian American with 2.34% and Italian American with 1.79%.
+In a similar way of Clinton, African American is leading with 46.5% of Trump's speakers being this ethnicity, followed by Jewish people with 7.7%, American Jews with 4.68%, Armenian American with 2.34% and Italian American with 1.79%.
 
 **Speaker Distribution**
-In case of author distribution and as mentioned before, African Americans are in second in terms of Authors ethnicity with 14.6%, losing only for Han Chinese people with 29%, and followed by Armenians with 8.77%, Greeks with 4.05% and Albanians with 3.11%. 
+In case of the Author distributions and as mentioned before, African Americans are in second in terms of Authors ethnicity with 14.6%, less than Han Chinese people with 29%, and followed by Armenians with 8.77%, Greeks with 4.05% and Albanians with 3.11%. 
 
 
 ## Nationality
@@ -249,13 +249,13 @@ United States of America is an undeniable global power, therefore, the results o
 
 <iframe src="assets/plots/Trump_Nat.html" width="100%" height="500">  </iframe>
 
-As we can see the majority of the speakers are from United States which is exactly what we would expect. However there are several other speaker nationalities which are quite frequent. What about Trump ?
+As we can see the majority of the speakers are from United States which is exactly what we would expect. However there are several other speaker nationalities which are quite frequent.
 
 ### Clinton Nationality Distribution
 
 <iframe src="assets/plots/Clinton_Nat.html" width="100%" height="500">  </iframe>
 
-Despite most of the major nationalities of the speakers are the same, there are some differences between the two distributions. We will visualize in a single plot the two distributions together.
+Despite most of the major nationalities of the speakers being similar, there are some differences between the two distributions. We will visualize in a single plot the two distributions together.
 
 ### Nationality Comparison
 
@@ -263,7 +263,7 @@ Similar to the ethnicity analysis, in Nationality in order to take proper conclu
 
 <iframe src="assets/plots/Clinton_Trump_Nat.html" width="100%" height="500">  </iframe>
 
-As we can observe in the plot above, the authors distributions seems to be better behaved compared to the ethnicity one, it is roughly uniforme and therefore it becomes a good sample to take conclusions about nationality interest in this political event. Lets start comparing both Trump's and Clinton's speakers nationality distributions. There are differences between the distribution of the major nationalities of the people whose quotes are referrred to Trump and Clinton respectively. Indeed, we can see that there are more people with american nationality speaking about Clinton than Trump while for example the people from european union (at least the representative countries we have in the plot) are more likely to speak about Trump rather than Clinton. Also in Canada, and Israel people are speaking more about Trump than Clinton. This suggests that Trump character is more known outside United States of America while Clinton seems to be more popular in her origin country. Additionally when consider the original author distribution, it's clear that some countries like Spain, Italy and France are not represented as much, we can interpret this as a lack of interest of this countries for this event.
+As we can observe in the plot above, the authors distributions seems to be better behaved compared to the ethnicity one, it is roughly uniform and therefore it becomes a good sample to take conclusions about nationality interest in this political event. Let's start comparing both Trump's and Clinton's speakers nationality distributions. There are differences between the distribution of the major nationalities of the people whose quotes are referrred to Trump and Clinton respectively. Indeed, we can see that there are more people with american nationality speaking about Clinton than Trump while for example the people from european union (at least the representative countries we have in the plot) are more likely to speak about Trump rather than Clinton. Also in Canada, and Israel people are speaking more about Trump than Clinton. This suggests that Trump character is more known outside United States of America while Clinton seems to be more popular in her origin country. Additionally when considering the original author distribution, it's clear that some countries like Spain, Italy and France are not represented as much, we can interpret this as a lack of interest of this countries for this politicians.
 
 Lets take a look also in a pie chart graph of each distribution in order to have a better sense of each nationality's percentage
 
