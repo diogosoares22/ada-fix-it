@@ -52,7 +52,7 @@ For our analysis we used Quotebank dataset containing 178 million unique, speake
 First of all, let's take a look at the general trend of the number of quotes of the two political opponents over the years 2015-2017, feel free to interact with the plot to discover useful information. The first question which might arise spontanously is the following: who has the bigger number of quotes ? Does it relate to the politician popularity ?
 
 
-<div><iframe src="assets/plots/General_timeseries_comparison.html" width="120%" height="600">  </iframe><div>
+<iframe src="assets/plots/General_timeseries_comparison.html" width="120%" height="600">  </iframe>
 
 
 As we can observe, generally speaking the number of quotes related to Trump is bigger than the number of quotes related to Cliton, but there are some periods in which this is not the case (for example at the beginning of 2015). In addition, as a general trend, we can observe that Clinton number of quotes has decreased a lot from September 2016 until the end of 2017 while the opposite is true for Trump. Which factors are related to this trends ? We will answer this question by describing the main political events in the life  of the two opponents during the years 2015-2017 understanding how these events influenced their media popularity.
@@ -95,7 +95,7 @@ After the first and the following debates everything was set up: people only had
 After the defeat of Clinton in 2016 elections, Trump was inaugurated as the 45th president of the United States on January 20, 2017. How his early actions influenced the mediatic interest on his character ? Let's have a look at the timeseries.
 
 
-<iframe src="assets/plots/both_timeseries_2017.html" width="120%" height="600">  </iframe><div>
+<iframe src="assets/plots/both_timeseries_2017.html" width="120%" height="600">  </iframe>
 
 
 
