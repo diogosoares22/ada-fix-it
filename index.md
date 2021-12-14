@@ -43,9 +43,10 @@ For our analysis we used Quotebank dataset containing 178 million unique, speake
 | Hillary Clinton   | More than 60000 quotes referred to her from more than 8000 different speakers |
 {: .tablelines}
 
------------------
 
 # Analysis of the evolution of the number of quotes
+-----------------
+
 
 First of all, let's take a look at the general trend of the number of quotes of the two political opponents over the years 2015-2017, feel free to interact with the plot to discover useful information. The first question which might arise spontanously is the following: who has the bigger number of quotes ? Does it relate to the politician popularity ?
 
@@ -127,13 +128,16 @@ We will compare the evolution of the number of quotes during the years 2015-2017
 
 As we can observe, in 2015 the two curves behave in a similar way. However the same is not true for the years 2016-2017. This is probably caused by the fact that the years 2016 and 2017 are quite special when it comes to Trump. For example in 2016 we observe a great amount of quotes before election periods and a few quotes during election period while the opposite is true when it comes to Google Trends plot. The reason which could explain the behaviour of the two distributions could lie on the fact that even if linked, the mediatic interest and the number of queries are not totally related. For instance, in that case, mediatic attention rose more for previous debates than for election while online interest rose more right after the elections. A similar resoning apply to 2017: events such that the Women’s March are able to attract more the online attention (also thanks to social media) while often this is not the case for newspapers or news websites.
 
------------------
 
 # Analysis of speaker attributes
+
+-----------------
+
 
 In order to provide a complete description of the popularity of a politician, it's of the utmost importance to have an in-depth analysis of the characteristics of the individuals that talk about this political figure. Afterwards we'll provide a data driven analysis focused on describing the **Age**, , the **Gender**, the **Ethnicity** and the **Nationality** of Trump and Clinton speakers.
 
 ## Age
+-----------------
 
 
 According to conventional wisdom people tend to become more conservative as they grow older, recently the *University of Chicago Press* elaborated a study that tries to access if the convential wisdom holds and how much so, in our work we will take a look at how the distribution of ages of Conservative Republican Donald Trump relates to the distribution of ages of his counterpart Democrat Hillary Clinton, do you think the conventional wisdom holds? Let's take a look!
@@ -163,6 +167,9 @@ Technically by computing a *Student t-test* for both distributions we can comput
 
 ## Gender
 
+-----------------
+
+
 Nowadays, the relationship between gender and politics is a very hot topic. The study of gender and politics focus on how peoples' genre determines their participation in and experience of political events. One of the central concerns of this topic relates to the exclusion of women from politics, it's clear that the participation is not equal, therefore most democratic societies are focusing on changing the current situation. Should we expect different ratios from men and women to contribute in politics? What's the current situation in terms of numbers? Let's see!
 
 ### Trump Gender Distribution
@@ -189,6 +196,8 @@ We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, 
 
 
 ## Ethnicity
+
+-----------------
 
 In modern days, even thought the progress of racial equality has been impressive in the past half century, there is still a long road ahead. The article *Race,Ethnicity, and Political Behavior*, present in *Oxford University Press* suggests that members of ethnic minorities are generally less active in politics, more likely to use contentious forms of political action, and support left-wing political parties that promote minority interests. Our study of ethnicity and politics focus on how people's ethnicities determines their participation in political events. One central concern of this topic is to see if in this case of study, the suggestion from *Race,Ethnicity and Political Behavior* holds and the ethnic minorities were in general less active in politics in comparison to majority populations.
 
@@ -228,6 +237,8 @@ In case of author distribution and as mentioned before, African Americans are in
 
 ## Nationality
 
+-----------------
+
 United States of America is an undeniable global power, therefore, the results of this presidencials would have concequencies all around the globe. This being said, it is clear that this political event drove attention from all around the world. Our study of nationality and politics focus on which nationalities showed more interest in this political event? Which politician is more popular outside the U.S.A. Let's see!
 
 ### Trump Nationality Distribution
@@ -263,9 +274,10 @@ In a similar way of Clinton, United States of America is leading with 63.6% of T
 **Speaker Distribution**
 In case of author distribution, United States of America is leading in terms of Authors nationality with 11.1%, followed by France 6.75%, Germany with 6.45%, Japan with 4.58% and United Kingdom with 4.19%. 
 
------------------
 
 # Machine Learning Interpretable Models
+
+-----------------
 
 In order to better interpret what features can be consider predictive, when classifying an author as either a Trump Speaker or a Clinton Speaker, we will train a **Logistic Regression** and a **Least Squares** models.
 
@@ -301,9 +313,10 @@ By looking at the coefficients with low p-value and their respective sign we can
 
 Note: We considered the 6 % significance level for our analysis.  
 
------------------
 
 # Conclusion
+
+-----------------
 
 In this Project we provide a detailed analysis of the US political landscape from 2015 up to 2017, throughout our project we carefully look at the caracteristics of authors that talked about the two key political figures during that time (Donald Trump and Hillary Clinton), by looking at this two distinct groups we can reason about the two different basis around this two politicians and we can therefore think about the underlying differences between the democrat and republican basis. In the end, we create a model to predict wether or not someone is talking about Trump or Clinton, the results of the model can provide insights as to whether a person's caracteristic such as age or gender can be used as a predictor for the task at hand. To sum up our project's goal was to provide a detailed data centric view of the popularity and polarization of the aforementioned political figures for different groups of people.
 
