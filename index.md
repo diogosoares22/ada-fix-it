@@ -139,7 +139,7 @@ As we can observe, **in 2015 the two curves behave in a similar way**. However *
 -----------------
 
 
-In order to provide a complete description of the popularity of a politician, it's of the utmost importance to have an in-depth analysis of the characteristics of the individuals that talk about this political figure. Afterwards we'll provide a data driven analysis focused on describing the **Age**, , the **Gender**, the **Ethnicity** and the **Nationality** of Trump and Clinton speakers.
+In order to provide a complete description of the popularity of a politician, it's of the utmost importance to have an in-depth analysis of the characteristics of the individuals that talk about this political figure. Afterwards we'll provide a data driven analysis focused on describing the **Age**, the **Gender**, the **Ethnicity** and the **Nationality** of Trump and Clinton speakers.
 
 ## Age
 -----------------
