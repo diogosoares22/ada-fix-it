@@ -181,19 +181,19 @@ Nowadays, the relationship between gender and politics is a very hot topic. The 
 
 <iframe src="assets/plots/Trump_gender.html" width="120%" height="500">  </iframe>
 
-Given the number of males and females speaking about Trump, we clearly see a 3.23 male / female ratio, this means that for every female that speaks about Trump we have on average 3.23 males speaking about Trump.
+Given the number of males and females speaking about Trump, we clearly see a **3.23 male / female ratio**, this means that for every female that speaks about Trump we have on average 3.23 males speaking about Trump.
 
 ### Clinton Gender Distribution
 
 <iframe src="assets/plots/Clinton_gender.html" width="120%" height="500">  </iframe>
 
-Given the number of males and females speaking about Clinton, we clearly see a 2.80 male / female ratio, this means for every female that speaks about Clinton, we have on average 2.8 males speaking about Clinton.
+Given the number of males and females speaking about Clinton, we clearly see a **2.80 male / female ratio**, this means for every female that speaks about Clinton, we have on average 2.8 males speaking about Clinton.
 
 ### Gender Comparison
 
 <iframe src="assets/plots/Clinton_Trump_gender.html" width="120%" height="500">  </iframe>
 
-As we can see the percentage of men talking about Trump is very similar to the Author Distribution, which means that talking about Trump even though it's maioritarily done by men doesn't reflect a big deviation from the distribution seen on other topics. However, interestingly talking about Clinton deviates a lot from the Author Distribution and from talking about Trump, one possible explanation for this phenomena can relate to the feminist movement, since Hillary Clinton could possibly be the first female President of the US at the moment.
+As we can see the percentage of men talking about Trump is very similar to the Author Distribution, which means that talking about Trump even though it's majoritarily done by men doesn't reflect a big deviation from the distribution seen on other topics. However, interestingly talking about Clinton deviates a lot from the Author Distribution and from talking about Trump, one possible explanation for this phenomena can relate to the feminist movement, since Hillary Clinton could possibly be the first female President of the US at the moment.
 
 ### Is the difference statistical significant?
 
