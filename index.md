@@ -197,7 +197,7 @@ As we can see the percentage of men talking about Trump is very similar to the A
 
 ### Is the difference statistical significant?
 
-We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, since we got [2.61, 3.01] for Clinton and [3.01, 3.37] for Trump, we can easily spot that the two confidence intervals don't overlap, therefore the difference in ratios is statistically significant.
+We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, since we got [2.61, 3.01] for Clinton and [3.01, 3.37] for Trump, we can easily spot that the two confidence intervals don't overlap, therefore **the difference in ratios is statistically significant**.
 
 
 ## Ethnicity
