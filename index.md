@@ -11,9 +11,13 @@ use-site-title: true
 
 # Introduction
 
+-----------------
+
 # Abstract
 
 In the 21st century *media coverage* is a crucial factor for political figures. The public is “meant” to believe everything they are told and not question it, so that people are easily convinced by what they read on newspapers, news websites or social media. Therefore it could be of primarly interest to study and understand *media interest* in different politicians over a specific time period since this interest is capable of influencing the thoughts of billions of people.
+
+-----------------
 
 # Methods
 
@@ -24,6 +28,8 @@ In our analysis we will focus on the years 2015-2017 and we will:
 * compare the media popularity of the two politicians over the years 2015-2017.
 * compare our results with Google Trends to see if the conventional media outlets capture the online interest as well.
 * try to understand which are the main differences between the speakers whose quotes refer to Trump and the one whose quotes refer to Clinton. 
+
+-----------------
 
 # Data in numbers
 
@@ -38,6 +44,8 @@ For our analysis we used Quotebank dataset containing 178 million unique, speake
 | Donald Trump     | More than 450000 quotes referred to him from more than 30000 different speakers |
 | Hillary Clinton   | More than 60000 quotes referred to her from more than 8000 different speakers |
 {: .tablelines}
+
+-----------------
 
 # Analysis of the evolution of the number of quotes
 
@@ -121,11 +129,16 @@ We will compare the evolution of the number of quotes during the years 2015-2017
 
 As we can observe, in 2015 the two curves behave in a similar way. However the same is not true for the years 2016-2017. This is probably caused by the fact that the years 2016 and 2017 are quite special when it comes to Trump. For example in 2016 we observe a great amount of quotes before election periods and a few quotes during election period while the opposite is true when it comes to Google Trends plot. The reason which could explain the behaviour of the two distributions could lie on the fact that even if linked, the mediatic interest and the number of queries are not totally related. For instance, in that case, mediatic attention rose more for previous debates than for election while online interest rose more right after the elections. A similar resoning apply to 2017: events such that the Women’s March are able to attract more the online attention (also thanks to social media) while often this is not the case for newspapers or news websites.
 
+-----------------
+
 # Analysis of speaker attributes
 
 In order to provide a complete description of the popularity of a politician, it's of the utmost importance to have an in-depth analysis of the characteristics of the individuals that talk about this political figure. Afterwards we'll provide a data driven analysis focused on describing the **Age**, , the **Gender**, the **Ethnicity** and the **Nationality** of Trump and Clinton speakers.
 
+-----------------
+
 # Age
+
 
 According to conventional wisdom people tend to become more conservative as they grow older, recently the *University of Chicago Press* elaborated a study that tries to access if the convential wisdom holds and how much so, in our work we will take a look at how the distribution of ages of Conservative Republican Donald Trump relates to the distribution of ages of his counterpart Democrat Hillary Clinton, do you think the conventional wisdom holds? Let's take a look!
 
@@ -151,6 +164,7 @@ From the distribution it could seem that Clinton's speakers are a bit older in g
 
 Technically by computing a *Student t-test* for both distributions we can compute the p-value of the null-hypothesis stating that the two distributions have the same mean. One can do this computation and see that the p-value is 2.3e-05, conventionally with such a low p-value it's often stated that we can reject the null hypothesis, therefore implying the difference to be statistically significant. In the end, we can conclude that on average the age of Trump speaker is smaller than the average of a Clinton speaker, therefore if we assume people talk more often about the people they support, this would be contradicting the conventional wisdom. However, recently there is an increasing amount of critique surrounding the speech of most authors, so we can be observing the inverse pattern, where a Trump Speaker would be more likely to be supporting Clinton, in this case the conventional wisdom would hold true. To sum up the data doesn't provide insights on the accuracy of the conventional wisdom.
 
+-----------------
 
 # Gender
 
@@ -177,6 +191,8 @@ As we can see the percentage of men talking about Trump is very similar to the A
 ## Is the difference statistical significant?
 
 We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, since we got [2.61, 3.01] for Clinton and [3.01, 3.37] for Trump, we can easily spot that the two confidence intervals don't overlap, therefore the difference in ratios is statistically significant.
+
+-----------------
 
 # Ethnicity
 
@@ -215,6 +231,8 @@ In a similar way of CLinton, African America is leading with 46.5% of Trump's sp
 **Speaker Distribution**
 In case of author distribution and as mentioned before, African Americans are in second in terms of Authors ethnicity with 14.6%, losing only for Han Chinese people with 29%, and followed by Armenians with 8.77%, Greeks with 4.05% and Albanians with 3.11%. 
 
+-----------------
+
 # Nationality
 
 United States of America is an undeniable global power, therefore, the results of this presidencials would have concequencies all around the globe. This being said, it is clear that this political event drove attention from all around the world. Our study of nationality and politics focus on which nationalities showed more interest in this political event? Which politician is more popular outside the U.S.A. Let's see!
@@ -252,6 +270,8 @@ In a similar way of Clinton, United States of America is leading with 63.6% of T
 **Speaker Distribution**
 In case of author distribution, United States of America is leading in terms of Authors nationality with 11.1%, followed by France 6.75%, Germany with 6.45%, Japan with 4.58% and United Kingdom with 4.19%. 
 
+-----------------
+
 # Machine Learning Interpretable Models
 
 In order to better interpret what features can be consider predictive, when classifying an author as either a Trump Speaker or a Clinton Speaker, we will train a **Logistic Regression** and a **Least Squares** models.
@@ -287,6 +307,8 @@ By looking at the coefficients with low p-value and their respective sign we can
 - Not belonging to the democrats and republicans, but to other political party is a positive predictor for Trump speakers
 
 Note: We considered the 6 % significance level for our analysis.  
+
+-----------------
 
 # Conclusion
 
