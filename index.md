@@ -16,7 +16,7 @@ use-site-title: true
 
 ## Abstract
 
-In the 21st century **media coverage** is a crucial factor for political figures. As we saw in the recent *Cambridge Analytica* scandal, the public can often be influenced by what they read on newspapers, news websites or social media. Therefore it could be of primarly interest to study and understand **media interest** in different politicians over a specific time period since this interest is capable of affect the thoughts of billions of people.
+In the 21st century **media coverage** is a crucial factor for political figures. As we saw in the recent *Cambridge Analytica* scandal, the public can often be influenced by what they read on newspapers, news websites or social media. Therefore, it could be of primarly interest to study and understand **media interest** of different politicians over a specific time period since this interest is capable of affecting the thoughts of billions of people.
 
 ## Methods
 
