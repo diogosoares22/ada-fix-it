@@ -123,7 +123,7 @@ Therefore, despite the number of quotes referring to Trump in 2017 is high, most
 
 ## Google Trends comparison
 
-According to recent studies of Pew Research center about half (48%) of U.S. adults say they get news from social media “often” or “sometimes”. As a consequence, nowadays, it is not sufficient anymore to study the popularity of a given character on conventional media, we need to study his popularity also in social media and more in general online. Therefore, a question which might arise spontanously is the following: is the mediatic interest linked to the online interest ? To answer this question we will use data from Google trends
+According to recent studies of Pew Research center about half (48%) of U.S. adults say they get news from social media “often” or “sometimes”. As a consequence, nowadays, it is not sufficient anymore to study the popularity of a given character on conventional media, we need to study his popularity also in social media and more in general online. Therefore, a question which might arise spontanously is the following: is the mediatic interest linked to the online interest ? To answer this question we will use data from Google trends.
 
 We will compare the evolution of the number of quotes during the years 2015-2017 for both Clinton and Trump with Google Trends number of searches in Google of the two politicians in the United States area. For the sake of simplicity we will consider only Trump quotes and Trump trends.
 
