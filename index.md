@@ -200,46 +200,6 @@ As we can see the percentage of men talking about Trump is the same as the Autho
 We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, since we got [2.61, 3.01] for Clinton and [3.01, 3.37] for Trump, we can easily spot that the two confidence intervals don't overlap, therefore **the difference in ratios is statistically significant**.
 
 
-## Ethnicity
-
------------------
-
-In modern days, even thought the progress of racial equality has been impressive in the past half century, there is still a long road ahead. The article *Race,Ethnicity, and Political Behavior*, presented in the *Oxford University Press* suggests that members of ethnic minorities are generally less active in politics, more likely to use contentious forms of political action, and support left-wing political parties that promote minority interests. Our study of ethnicity and politics focus on how people's ethnicities determines their participation in political events. We will see if the anlysis from *Race,Ethnicity and Political Behavior* holds and the ethnic minorities were in general less active in politics in comparison to majority populations for this case study.
-
-### Trump Ethnicity Distribution
-
-<iframe src="assets/plots/Trump_Eth.html" width="100%" height="500">  </iframe>
-
-As we can see from the plot, the majority of Trump's speakers were African Americans but not only that, in fact, most of the top ethnicity speakers were minorities
-
-### Clinton Ethnicity Distribution
-
-<iframe src="assets/plots/Clinton_Eth.html" width="100%" height="500">  </iframe>
-
-As we can see from the plot, and in a similar way of Trump's ethnicity distribution, the majority of Clinton's speakers were African Americans and with a lot of the other top ethnicity speakers being minorities too.
-
-### Ethnicity Comparison
-
-From just looking at both distribution it seems that the suggestion from the Oxford's Univirsity Press article is not holding in this case of study, but, before taking any hasty conclusions we need to compare both histograms with the original author distribution.
-
-<iframe src="assets/plots/Clinton_Trump_Eth.html" width="100%" height="500">  </iframe>
-
-As we can observe in the plot above, the authors distribution is not uniform, making it impossible to take conclusions about the participation ratio between minorities and majorities in this political event. This being said, and observing that the distribution is bias towards some ethnicities, namely African American, and with the addition that racial equality, specially towards Hispanics and African Americans, played a huge role in the this presidencials, in one hand we have Trump with a lot of racist controversies, namely launching speechs and false statistics linking African Americans and Hispanic people with violent crimes, and in other hand Hilary Clinton in which her presidential campaign focused, among other issues, helping and supporting the minorities, it is expected that African Americans and other minor ethnicities played a huge role in the speaker distribution of each politician.
-
-Lets take a look also in a pie chart graph of each distribution in order to have a better sense of each ethnicity's percentage
-
-<iframe src="assets/plots/Eth_Pie_Chart.html" width="100%" height="500">  </iframe>
-
-**CLinton**
-As mentioned before, African American is leading with 47.1% of Clinton's speakers being this ethnicity, followed by Jewish people with 7.62%, American Jews with 5.44%, Italian American with 2.45% and Armenian American with 1.9%.
-
-**Trump**
-In a similar way of Clinton, African American is leading with 46.5% of Trump's speakers being this ethnicity, followed by Jewish people with 7.7%, American Jews with 4.68%, Armenian American with 2.34% and Italian American with 1.79%.
-
-**Speaker Distribution**
-In case of the Author distributions and as mentioned before, African Americans are in second in terms of Authors ethnicity with 14.6%, less than Han Chinese people with 29%, and followed by Armenians with 8.77%, Greeks with 4.05% and Albanians with 3.11%. 
-
-
 ## Nationality
 
 -----------------
