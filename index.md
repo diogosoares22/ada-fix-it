@@ -193,7 +193,7 @@ Given the number of males and females speaking about Clinton, we clearly see a *
 
 <iframe src="assets/plots/Clinton_Trump_gender.html" width="120%" height="500">  </iframe>
 
-As we can see the percentage of men talking about Trump is very similar to the Author Distribution, which means that talking about Trump even though it's majoritarily done by men doesn't reflect a big deviation from the distribution seen on other topics. However, interestingly talking about Clinton deviates a lot from the Author Distribution and from talking about Trump, one possible explanation for this phenomena can relate to the feminist movement, since Hillary Clinton could possibly be the first female President of the US at the moment.
+As we can see the percentage of men talking about Trump is the same as the Author Distribution. However, interestingly, the percentage for Clinton's speakers deviate a lot from the Author Distribution. One possible explanation for this phenomena can relate to the more general support of females since Hillary Clinton could have been the first female President of the US at that moment.
 
 ### Is the difference statistical significant?
 
