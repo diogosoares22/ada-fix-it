@@ -16,9 +16,13 @@ use-site-title: true
 
 ## Abstract
 
+-----------------
+
 In the 21st century **media coverage** is a crucial factor for political figures. As we saw in the recent *Cambridge Analytica* scandal, the public can often be influenced by what they read on newspapers, news websites or social media. Therefore, it could be of primarly interest to study and understand **media interest** of different politicians over a specific time period since this interest is capable of affecting the thoughts of billions of people.
 
 ## Methods
+
+-----------------
 
 We could have a rough measure of the above mentioned interest by studying **the number of quotes published on newspapers or news websites** referred to a given politician on a given period.
 In our analysis we will focus on the years 2015-2017 and we will:
@@ -30,6 +34,8 @@ In our analysis we will focus on the years 2015-2017 and we will:
 
 
 ## Data in numbers
+
+-----------------
 
 For our analysis we used **Quotebank dataset** and some data extracted from **Google trends**.
 
@@ -53,6 +59,7 @@ After the selection of the quotes related to Trump and Clinton, we have the foll
 
 
 # Analysis of the evolution of the number of quotes
+
 -----------------
 
 
@@ -65,6 +72,8 @@ First of all, let's take a look at the **general trend** of the number of quotes
 As we can observe, generally speaking the number of quotes related to Trump is bigger than the number of quotes related to Cliton, but there are some periods in which this is not the case (for example at the beginning of 2015). In addition, as a general trend, we can observe that Clinton number of quotes has decreased a lot from September 2016 until the end of 2017 while the opposite is true for Trump. Which factors are related to this trends ? We will answer this question by describing the main political events in the life of the two opponents during the years 2015-2017, understanding how those events influenced their media popularity.
 
 ## Year 2015: The rise of Trump consent
+
+-----------------
 
 **At the beginning of 2015 Hillary Clinton was very well known in the United States**, since she had already covered several political positions such as being the first lady of the United States (1993-2001), being an US senator from New York (2001-2009) and serving as the United States Secretary of State (2009-2013). On the other hand, **Donald Trump was mostly known at the beginning of 2015 as a business man** and it was not until June 2015 that he announced his entrance into the race for the White House. Interestingly, 2015 has been a year often considered as a turning point in the recent American political scene since **we assist a rapid increase of Trump popularity**.
 We will take a look at the number of quotes referring to the two politicians over the course of the year 2015.
@@ -84,6 +93,8 @@ Eight days later his polling average climbed to 16.8% (slightly before the first
 
 ## Year 2016: The year of the truth
 
+-----------------
+
 The 2016 year was the decisive year for the future of the United States of America since the **58th presidential election** was held the 8th November of 2016. Nobody had a clear answer for the question "who will win the next elections ?": even if Trump took a great advantage on the opponent during the summer of 2015, Clinton could count on the historical support of a great amount of Americans. The year 2016, in particular the few month before elections, have been a turning point in the result of the 2016 elections. Which events grabbed the most the media attention during this year ?
 
 
@@ -98,6 +109,8 @@ The main political events which happened in the following months were the **Repu
 After the first and the following debates everything was set up: people only had to vote and to wait for the results. Election day arrived soon (8th November 2016). With a big surprise Trump defeated the opponent Hillary Clinton despite Clinton received a slightly higher number of votes. From that moment on Clinton's popularity has decreased a lot in media quotes while Trump's one has increased drastically right after the elections with a great interest of the media on him around the 15th of December.
 
 ## Year 2017: The rise of a new discontent
+
+-----------------
 
 After the defeat of Clinton in 2016 elections, **Trump was inaugurated as the 45th president of the United States on January 20, 2017**. How his early actions influenced the mediatic interest on his character ? Let's have a look at the timeseries.
 
@@ -123,6 +136,8 @@ Therefore, despite the number of quotes referring to Trump in 2017 is high, most
 
 ## Google Trends comparison
 
+-----------------
+
 According to recent studies of Pew Research center **about half (48%) of U.S. adults say they get news from social media “often” or “sometimes”**. As a consequence, nowadays, it is not sufficient anymore to study the popularity of a given character on conventional media, we need to study his popularity also in social media and more in general online. Therefore, a question which might arise spontanously is the following: is the mediatic interest linked to the online interest ? To answer this question we will use data from Google trends.
 
 We will compare the evolution of the number of quotes during the years 2015-2017 for both Clinton and Trump with Google Trends number of searches in Google of the two politicians in the United States area. For the sake of simplicity we will consider only Trump quotes and Trump trends.
@@ -142,6 +157,7 @@ As we can observe, **in 2015 the two curves behave in a similar way**. However *
 In order to provide a complete description of the popularity of a politician, it's of the utmost importance to have an in-depth analysis of the characteristics of the individuals that talk about this political figure. Afterwards we'll provide a data driven analysis focused on describing the **Age**, the **Gender**, the **Ethnicity** and the **Nationality** of Trump and Clinton speakers.
 
 ## Age
+
 -----------------
 
 
@@ -149,17 +165,23 @@ According to conventional wisdom people tend to become more conservative as they
 
 ### Trump Age Distribution
 
+-----------------
+
 <iframe src="assets/plots/Trump_Age.html" width="120%" height="500">  </iframe>
 
 As we observe the median age of a Trump speaker is 59 years old, interestingly the interquartile range is only 21 years with the first quartile ending at 48 years old and the third quartile ending at 69 years old, therefore 75 % of the speakers have more than 48 years. Another interesting observation relates to the skewness of the curve in the right and left sides of the distribution, it's noticeable that the skewness is slightly bigger on the right side compared to the left side, one possible explanation is the inherent biological restrictions of the human body, since the global live expectancy is calculated to be around 72 years old.
 
 ### Clinton Age Distribution
 
+-----------------
+
 <iframe src="assets/plots/Clinton_Age.html" width="120%" height="500">  </iframe>
 
 As we observe the median age of a Clinton speaker is 60 years old, interestingly the interquartile range is only 22 years with the first quartile ending at 49 years old and the third quartile ending at 71 years old, therefore 75 % of the speakers have more than 49 years. Following the reasoning from the Trump Distribution, here one can also see that the right side of the distribution is more skewed than the right side, however the higher median and third quartile values mean the biological restriction will be even more visible, therefore having a skewness much higher in compared to the left side.
 
 ### Age Comparison
+
+-----------------
 
 <iframe src="assets/plots/Clinton_Trump_Age.html" width="140%" height="900">  </iframe>
 
@@ -179,17 +201,23 @@ Nowadays, the relationship between gender and politics is a very hot topic. The 
 
 ### Trump Gender Distribution
 
+-----------------
+
 <iframe src="assets/plots/Trump_gender.html" width="120%" height="500">  </iframe>
 
 Given the number of males and females speaking about Trump, we clearly see a **3.23 male / female ratio**, this means that for every female that speaks about Trump we have on average 3.23 males speaking about Trump.
 
 ### Clinton Gender Distribution
 
+-----------------
+
 <iframe src="assets/plots/Clinton_gender.html" width="120%" height="500">  </iframe>
 
 Given the number of males and females speaking about Clinton, we clearly see a **2.80 male / female ratio**, this means for every female that speaks about Clinton, we have on average 2.8 males speaking about Clinton.
 
 ### Gender Comparison
+
+-----------------
 
 <iframe src="assets/plots/Clinton_Trump_gender.html" width="120%" height="500">  </iframe>
 
@@ -208,17 +236,23 @@ United States of America is an undeniable global power, therefore, the results o
 
 ### Trump Nationality Distribution
 
+-----------------
+
 <iframe src="assets/plots/Trump_Nat.html" width="100%" height="500">  </iframe>
 
 As we can see the majority of the speakers are from United States which is exactly what we would expect. There are several other speaker nationalities which are quite frequent as United Kingdom, Canada, Australia,...  . These numbers don't seem strange to us. Indeed, it could be that the majority of the speakers come from an english language speaking country, and this is why we have a huge number of quotes associated to speakers coming from english language speaking country for Trump too. Can we observe a similar bias for Clinton too ?
 
 ### Clinton Nationality Distribution
 
+-----------------
+
 <iframe src="assets/plots/Clinton_Nat.html" width="100%" height="500">  </iframe>
 
 We notice that a similar effect can be seen in Clinton speakers nationalities too. Despite most of the major nationalities of the speakers being similar, there are some differences between the two distributions. We will visualize in a single plot the two distributions together, additionaly we will plot the general distribution for the nationality of the whole dataset of speakers to have a better comparison.
 
 ### Nationality Comparison
+
+-----------------
 
 <iframe src="assets/plots/Nat_Pie_Chart.html" width="143%" height="1550">  </iframe>
 
@@ -233,6 +267,8 @@ In order to better interpretwhich features can be considered predictive, when cl
 
 ## Logistic Regression Model
 
+-----------------
+
 ![Logistic_Regression](assets/plots/Logistic_Regression.png)
 
 Logistic Regression is usually a better model for classification tasks, however as we can see from the R2 coefficient, the fit is not great. Additionally, we have a big number of non defined values coupled with very high p-value for most coefficients. That being said **we can't make any meaningful conclusions, unless for the age predictor**.
@@ -244,6 +280,8 @@ By looking at the coefficients with low p-value and their respective sign we can
 - A negative coefficient in the age features with a p-value smaller than the threshold (we choose 0.06), tells us that **age is a statistically significant positive predictor for Clinton speakers**. That means that increasing the age of a speaker it is more likely for him to have quotes referred to Clinton with respect to quotes referred to Trump.
 
 ## Least Squares Model
+
+-----------------
 
 ![Least_Squares](assets/plots/Linear_Regression.png)
 
