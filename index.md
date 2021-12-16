@@ -254,10 +254,10 @@ Least Squares typically is used for regression tasks, however, we decided to use
 By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
 
 - Like before, age is a positive predictor for Clinton Speakers and a negative predictor for Trump speakers
-- Nationality from Europe, Asia and South America are positive predictors for Trump Speakers and negative predictors for Clinton Speakers
-- Nationality from North America is a positive predictor for Clinton Speakers and a negative predictor for Clinton Speakers
+- Nationalities from Europe, Asia and South America are positive predictors for Trump Speakers and negative predictors for Clinton Speakers
+- Nationalities from North America is a positive predictor for Clinton Speakers and a negative predictor for Clinton Speakers
 - Male gender is a positive predictor for Trump Speakers, conversely Female gender is a positive predictor for Clinton Speakers
-- In terms of religion, believing in Buddism, Christianity, Judaism are positive predictors for Clinton Speakers, whereas believing in Islam or not declaring any religion can be seen as positive predictor for Trump speakers
+- In terms of religion, believing in Buddism, Christianity, Judaism is a positive predictors for Clinton Speakers, whereas believing in Islam or not declaring any religion can be seen as positive predictor for Trump speakers
 - Surprisingly both being a democrat or a republican is a positive predictor for Clinton speakers
 - Not belonging to the democrats and republicans, but to other political party is a positive predictor for Trump speakers
 
