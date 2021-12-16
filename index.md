@@ -235,19 +235,19 @@ In order to better interpretwhich features can be considered predictive, when cl
 
 ![Logistic_Regression](assets/plots/Logistic_Regression.png)
 
-Logistic Regression is usually a better model for classification tasks, however as we can see from the R2 coefficient, the results are not great. Additionally, we have a big number of non defined values coupled with very high p-value for most coefficients. That being said we can't make any meaningful conclusions, unless for the age predictor.
+Logistic Regression is usually a better model for classification tasks, however as we can see from the R2 coefficient, the fit is not great. Additionally, we have a big number of non defined values coupled with very high p-value for most coefficients. That being said we can't make any meaningful conclusions, unless for the age predictor.
 
 **Model Conclusions**
 
 By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
 
-- A negative coefficient in the age features tells us that a higher age is more common for Clinton speakers (matches the conclusion in the age analysis), hence we can conclude that the feature is a positive predictor for Clinton speakers and a negative predictor for Trump speakers  
+- A negative coefficient in the age features with a p-value smaller than the threshold (we choose 0.06), tells us that age is a statistically significant positive predictor for Clinton speakers. That means that increasing the age of a speaker it is more likely for him to have quotes referred to Clinton with respect to quotes referred to Trump.
 
 ## Least Squares Model
 
 ![Least_Squares](assets/plots/Linear_Regression.png)
 
-Least Squares typically is used for regression tasks, however it can be quite indicative of a predictor if look at the sign of the coefficients with low p-value. Fortunately the regression analysis provides better results than the previous analysis, allowing us to make some conclusions.
+Least Squares typically is used for regression tasks, however, we decided to use it to explain the features since in this case the model shows a better convergence which allows for meaningful interpretation of the coefficients. The model can be quite indicative of a predictor if we look at the sign of the coefficients with low p-value. Fortunately the regression analysis provides better results than the previous analysis, allowing us to make some conclusions.
 
 **Model Conclusions**
 
