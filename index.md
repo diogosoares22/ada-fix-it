@@ -208,7 +208,7 @@ United States of America is an undeniable global power, therefore, the results o
 
 ### Trump Nationality Distribution
 
-<iframe src="assets/plots/Trump_Nat.html" width="100%" height="500">  </iframe>
+<iframe src="assets/plots/Trump_Nat.html" width="140%" height="1500">  </iframe>
 
 As we can see the majority of the speakers are from United States which is exactly what we would expect. However there are several other speaker nationalities which are quite frequent.
 
