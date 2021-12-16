@@ -204,13 +204,13 @@ We computed the 5 % confidence intervals for Trump and Clinton ratio of gender, 
 
 -----------------
 
-United States of America is an undeniable global power, therefore, the results of this presidencials would have concequencies all around the globe. This being said, it is clear that this political event drove attention from all around the world. Our study of nationality and politics focus on which nationalities showed more interest in this political event? Which politician is more popular outside the U.S.A. Let's see!
+United States of America is an undeniable global power, therefore, the results of each presidential election have concequences all around the globe. This being said, it is clear that this political event captured the attention of speakers from all around the world. Our study of nationality aims to find which nationalities showed more interest in the two rivals for the presidential election of 2016. Which politician is more popular outside and inside U.S.A. Let's see!
 
 ### Trump Nationality Distribution
 
-<iframe src="assets/plots/Trump_Nat.html" width="140%" height="1500">  </iframe>
+<iframe src="assets/plots/Trump_Nat.html" width="100%" height="500">  </iframe>
 
-As we can see the majority of the speakers are from United States which is exactly what we would expect. However there are several other speaker nationalities which are quite frequent.
+As we can see the majority of the speakers are from United States which is exactly what we would expect. There are several other speaker nationalities which are quite frequent as United Kingdom, Canada, Australia,...  . These numbers don't seem strange to us. Indeed, it could be that the majority of the speakers come from an english language speaking country, and this is why we have a huge number of quotes associated to speakers coming from english language speaking country for Trump too. Can we observe a similar bias for Clinton too ?
 
 ### Clinton Nationality Distribution
 
@@ -228,7 +228,7 @@ As we can observe in the plot above, the authors distributions seems to be bette
 
 Lets take a look also in a pie chart graph of each distribution in order to have a better sense of each nationality's percentage
 
-<iframe src="assets/plots/Nat_Pie_Chart.html" width="100%" height="500">  </iframe>
+<iframe src="assets/plots/Nat_Pie_Chart.html" width="140%" height="1500">  </iframe>
 
 **CLinton**
 As mentioned before, United States of America is leading with 70.7% of Clinton's speakers being this nationality, followed by United Kingdom with 6.75%, Canada with 2.88%, Australia with 2.43% and Germany with 1.24%.
