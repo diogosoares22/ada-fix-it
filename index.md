@@ -167,7 +167,7 @@ From the distribution it could seem that **Clinton's speakers are a bit older in
 
 ### Is the difference statistical significant?
 
-Technically by computing a *Student t-test* for both distributions we can compute the p-value of the null-hypothesis stating that the two distributions have the same mean. One can do this computation and see that the p-value is 2.3e-05, conventionally with such a low p-value it's often stated that we can reject the null hypothesis, therefore implying the difference to be statistically significant. In the end, we can conclude that on average the age of Trump speaker is smaller than the average of a Clinton speaker, therefore if we assume people talk more often about the people they support, this would be contradicting the conventional wisdom. However, recently there is an increasing amount of critique surrounding the speech of most authors, so we can be observing the inverse pattern, where a Trump Speaker would be more likely to be supporting Clinton, in this case the conventional wisdom would hold true. To sum up the data doesn't provide insights on the accuracy of the conventional wisdom.
+Technically by computing a *Student t-test* for both distributions we can compute the p-value of the null-hypothesis stating that the two distributions have the same mean. One can do this computation and see that the p-value is 2.3e-05, conventionally with such a low p-value it's often stated that we can reject the null hypothesis, therefore **implying the difference to be statistically significant**. In the end, we can conclude that on average the age of Trump speaker is smaller than the average of a Clinton speaker, therefore if we assume people talk more often about the people they support, this would be contradicting the conventional wisdom. However, recently there is an increasing amount of critique surrounding the speech of most authors, so we can be observing the inverse pattern, where a Trump Speaker would be more likely to be supporting Clinton, in this case the conventional wisdom would hold true. To sum up the data doesn't provide insights on the accuracy of the conventional wisdom.
 
 
 ## Gender
@@ -220,22 +220,22 @@ We notice that a similar effect can be seen in Clinton speakers nationalities to
 
 ### Nationality Comparison
 
-<iframe src="assets/plots/Nat_Pie_Chart.html" width="145%" height="1550">  </iframe>
+<iframe src="assets/plots/Nat_Pie_Chart.html" width="143%" height="1550">  </iframe>
 
-As we can observe in the plot above, the general author distribution of the nationalities is not so biased by nationalities of coutries with english language since between the leading nationalities for the speakers there are several european nationalities such as France, Germany, Spain in which the national language is not English. Comparingboth Trump's and Clinton's speakers nationality distributions we notice that there are noticeable differences between the two distributions. Indeed, we can see that there are more people with american nationality speaking about Clinton than Trump while for example the people from European Union (at least the representative countries we have in the plot) are more likely to speak about Trump rather than Clinton. Also in Canada, and Israel people are speaking more about Trump than Clinton. This suggests that Trump character is more known outside United States of America while Clinton seems to be more popular in her origin country. This information could be of primarly interest for studies about the political basis of the two politicians.
+As we can observe in the plot above, the general author distribution of the nationalities is not so biased by nationalities of coutries with english language since between the leading nationalities for the speakers there are several european nationalities such as France, Germany, Spain in which the national language is not English. Comparingboth Trump's and Clinton's speakers nationality distributions we notice that there are noticeable differences between the two distributions. Indeed, we can see that **there are more people with american nationality speaking about Clinton than Trump** while for example the **people from European Union (at least the representative countries we have in the plot) are more likely to speak about Trump rather than Clinton**. Also in Canada, and Israel people are speaking more about Trump than Clinton. This suggests that **Trump character is more known outside United States of America while Clinton seems to be more popular in her origin country**. This information could be of primarly interest for studies about the political basis of the two politicians.
 
 
 # Machine Learning Interpretable Models
 
 -----------------
 
-In order to better interpret what features can be consider predictive, when classifying an author as either a Trump Speaker or a Clinton Speaker, we will train a **Logistic Regression** and a **Least Squares** models.
+In order to better interpretwhich features can be considered predictive, when classifying an author as either a Trump Speaker or a Clinton Speaker, we will train a **Logistic Regression** and a **Least Squares** models. These models will not be trained to really fit the data (otherwise we would have chosen more complex models) but they will be trained to interpret and to clarify which features characterize better the Trump's speakers and the Clinton's speakers.
 
 ## Logistic Regression Model
 
 ![Logistic_Regression](assets/plots/Logistic_Regression.png)
 
-Logistic Regression is usually the better model for classification tasks, however as we can see the results are not great, since we have a big number of non defined values coupled with very high p-value for most coefficients. That being said we can't make any meaningful conclusions, unless for the age predictor.
+Logistic Regression is usually a better model for classification tasks, however as we can see from the R2 coefficient, the results are not great. Additionally, we have a big number of non defined values coupled with very high p-value for most coefficients. That being said we can't make any meaningful conclusions, unless for the age predictor.
 
 **Model Conclusions**
 
