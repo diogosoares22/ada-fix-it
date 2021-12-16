@@ -228,7 +228,7 @@ As we can observe in the plot above, the authors distributions seems to be bette
 
 Lets take a look also in a pie chart graph of each distribution in order to have a better sense of each nationality's percentage
 
-<iframe src="assets/plots/Eth_Pie_Chart.html" width="100%" height="500">  </iframe>
+<iframe src="assets/plots/Nat_Pie_Chart.html" width="100%" height="500">  </iframe>
 
 **CLinton**
 As mentioned before, United States of America is leading with 70.7% of Clinton's speakers being this nationality, followed by United Kingdom with 6.75%, Canada with 2.88%, Australia with 2.43% and Germany with 1.24%.
