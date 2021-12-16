@@ -216,7 +216,7 @@ As we can see the majority of the speakers are from United States which is exact
 
 <iframe src="assets/plots/Clinton_Nat.html" width="100%" height="500">  </iframe>
 
-Despite most of the major nationalities of the speakers being similar, there are some differences between the two distributions. We will visualize in a single plot the two distributions together.
+We notice that a similar effect can be seen in Clinton speakers nationalities too. Despite most of the major nationalities of the speakers being similar, there are some differences between the two distributions. We will visualize in a single plot the two distributions together, additionaly we will plot the general distribution for the nationality of the whole dataset of speakers to have a better comparison.
 
 ### Nationality Comparison
 
