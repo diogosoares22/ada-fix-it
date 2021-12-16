@@ -221,7 +221,7 @@ Given the number of males and females speaking about Clinton, we clearly see a *
 
 <iframe src="assets/plots/Clinton_Trump_gender.html" width="120%" height="500">  </iframe>
 
-As we can see the percentage of men talking about Trump is the same as the Author Distribution. However, interestingly, the percentage for Clinton's speakers deviate a lot from the Author Distribution. One possible explanation for this phenomena can relate to the more general support of females since Hillary Clinton could have been the first female President of the US at that moment.
+As we can see the percentage of men talking about Trump is the same as the general author distribution (the distribution of the gender of all the speakers in quotebank dataset). However, interestingly, the percentage for Clinton's speakers deviate a lot from the author distribution. One possible explanation for this phenomena can relate to the more general support of females since Hillary Clinton could have potentially been the first female President of the US at that moment.
 
 ### Is the difference statistical significant?
 
