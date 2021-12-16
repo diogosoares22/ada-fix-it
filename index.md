@@ -220,24 +220,9 @@ We notice that a similar effect can be seen in Clinton speakers nationalities to
 
 ### Nationality Comparison
 
-Similar to the ethnicity analysis, in Nationality in order to take proper conclusions, we also need to compare both distributions with the original author distribution.
-
-<iframe src="assets/plots/Clinton_Trump_Nat.html" width="100%" height="500">  </iframe>
-
-As we can observe in the plot above, the authors distributions seems to be better behaved compared to the ethnicity one, it is roughly uniform and therefore it becomes a good sample to take conclusions about nationality interest in this political event. Let's start comparing both Trump's and Clinton's speakers nationality distributions. There are differences between the distribution of the major nationalities of the people whose quotes are referrred to Trump and Clinton respectively. Indeed, we can see that there are more people with american nationality speaking about Clinton than Trump while for example the people from european union (at least the representative countries we have in the plot) are more likely to speak about Trump rather than Clinton. Also in Canada, and Israel people are speaking more about Trump than Clinton. This suggests that Trump character is more known outside United States of America while Clinton seems to be more popular in her origin country. Additionally when considering the original author distribution, it's clear that some countries like Spain, Italy and France are not represented as much, we can interpret this as a lack of interest of this countries for this politicians.
-
-Lets take a look also in a pie chart graph of each distribution in order to have a better sense of each nationality's percentage
-
 <iframe src="assets/plots/Nat_Pie_Chart.html" width="145%" height="1550">  </iframe>
 
-**CLinton**
-As mentioned before, United States of America is leading with 70.7% of Clinton's speakers being this nationality, followed by United Kingdom with 6.75%, Canada with 2.88%, Australia with 2.43% and Germany with 1.24%.
-
-**Trump**
-In a similar way of Clinton, United States of America is leading with 63.6% of Trump's speakers being this nationality, followed by United Kingdom with 8.34%, Canada with 3.23%, Australia with 2.14% and Israel with 1.73%.
-
-**Speaker Distribution**
-In case of author distribution, United States of America is leading in terms of Authors nationality with 11.1%, followed by France 6.75%, Germany with 6.45%, Japan with 4.58% and United Kingdom with 4.19%. 
+As we can observe in the plot above, the general author distribution of the nationalities is not so biased by nationalities of coutries with english language since between the leading nationalities for the speakers there are several european nationalities such as France, Germany, Spain in which the national language is not English. Comparingboth Trump's and Clinton's speakers nationality distributions we notice that there are noticeable differences between the two distributions. Indeed, we can see that there are more people with american nationality speaking about Clinton than Trump while for example the people from European Union (at least the representative countries we have in the plot) are more likely to speak about Trump rather than Clinton. Also in Canada, and Israel people are speaking more about Trump than Clinton. This suggests that Trump character is more known outside United States of America while Clinton seems to be more popular in her origin country. This information could be of primarly interest for studies about the political basis of the two politicians.
 
 
 # Machine Learning Interpretable Models
