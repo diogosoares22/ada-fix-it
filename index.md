@@ -235,13 +235,13 @@ In order to better interpretwhich features can be considered predictive, when cl
 
 ![Logistic_Regression](assets/plots/Logistic_Regression.png)
 
-Logistic Regression is usually a better model for classification tasks, however as we can see from the R2 coefficient, the fit is not great. Additionally, we have a big number of non defined values coupled with very high p-value for most coefficients. That being said we can't make any meaningful conclusions, unless for the age predictor.
+Logistic Regression is usually a better model for classification tasks, however as we can see from the R2 coefficient, the fit is not great. Additionally, we have a big number of non defined values coupled with very high p-value for most coefficients. That being said **we can't make any meaningful conclusions, unless for the age predictor**.
 
 **Model Conclusions**
 
 By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
 
-- A negative coefficient in the age features with a p-value smaller than the threshold (we choose 0.06), tells us that age is a statistically significant positive predictor for Clinton speakers. That means that increasing the age of a speaker it is more likely for him to have quotes referred to Clinton with respect to quotes referred to Trump.
+- A negative coefficient in the age features with a p-value smaller than the threshold (we choose 0.06), tells us that **age is a statistically significant positive predictor for Clinton speakers**. That means that increasing the age of a speaker it is more likely for him to have quotes referred to Clinton with respect to quotes referred to Trump.
 
 ## Least Squares Model
 
@@ -253,13 +253,13 @@ Least Squares typically is used for regression tasks, however, we decided to use
 
 By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
 
-- Like before, age is a positive predictor for Clinton Speakers and a negative predictor for Trump speakers (this matches the previous analysis)
-- Nationalities from Europe, Asia and South America are positive predictors for Trump Speakers and negative predictors for Clinton Speakers (this matches the previous analysis)
-- Nationalities from North America is a positive predictor for Clinton Speakers and a negative predictor for Clinton Speakers (this matches the previous analysis)
-- Male gender is a positive predictor for Trump Speakers, conversely Female gender is a positive predictor for Clinton Speakers (this matches the previous analysis)
-- In terms of religion, believing in Buddism, Christianity, Judaism is a positive predictors for Clinton Speakers, whereas believing in Islam or not declaring any religion can be seen as positive predictor for Trump speakers
-- Surprisingly both being a democrat or a republican is a positive predictor for Clinton speakers
-- Not belonging to the democrats and republicans, but to other political party is a positive predictor for Trump speakers
+- Like before, **age is a positive predictor for Clinton Speakers** and a negative predictor for Trump speakers (this matches the previous analysis)
+- **Nationalities from Europe, Asia and South America are positive predictors for Trump Speakers** and negative predictors for Clinton Speakers (this matches the previous analysis).
+- **Nationalities from North America are positive predictors for Clinton Speakers** and a negative predictor for Clinton Speakers (this matches the previous analysis).
+- **Male gender is a positive predictor for Trump Speakers**, conversely Female gender is a positive predictor for Clinton Speakers (this matches the previous analysis).
+- In terms of religion, **believing in Buddism, Christianity, Judaism is a positive predictors for Clinton Speakers**, whereas **believing in Islam or not declaring any religion can be seen as positive predictor for Trump speakers**.
+- Surprisingly **both being a democratic or a republican is a positive predictor for Clinton speakers**.
+- **Not belonging to the democratic and republican, but to other political party is a positive predictor for Trump speakers**.
 
 Note: We considered the 6 % significance level for our analysis.  
 
@@ -268,5 +268,7 @@ Note: We considered the 6 % significance level for our analysis.
 
 -----------------
 
-In this Project we provide a detailed analysis of the US political landscape from 2015 up to 2017, throughout our project we carefully look at the caracteristics of authors that talked about the two key political figures during that time (Donald Trump and Hillary Clinton), by looking at this two distinct groups we can reason about the two different basis around this two politicians and we can therefore think about the underlying differences between the democrat and republican basis. In the end, we create a model to predict wether or not someone is talking about Trump or Clinton, the results of the model can provide insights as to whether a person's caracteristic such as age or gender can be used as a predictor for the task at hand. To sum up our project's goal was to provide a detailed data centric view of the popularity and polarization of the aforementioned political figures for different groups of people.
+In this Project we provided a detailed analysis of the US political landscape from 2015 up to 2017, we studied the "popularity" of two of the main politicians in the United States in that years using the number of quotes referred to them in newspapers and news websites. We used timeseries to indentify the trend of the popularity and to relate it to the main events in the political scene of that years, we also compared it with Google Trends to see if the number of quotes capture the online interest as well.
+
+Moreover, throughout our project we carefully studied the caracteristics of authors whose quotes are referred to the two key political figures during that time. By looking at these two distinct groups we can reason about the two different basis of these two politicians and we could therefore extend our analysis underlying the differences between the democrat and republican basis. In the end, we created a model to predict wether or not someone is a Trump or a Clinton speaker, the results of the model can provide insights as to whether a person's caracteristic such as age or gender can be used as a predictor for the task at hand. To sum up our project's goal was to provide a **detailed data centric view of the popularity and polarization of the aforementioned political figures for different groups of people**.
 
