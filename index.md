@@ -280,6 +280,9 @@ By looking at the coefficients with low p-value and their respective sign we can
 - A negative coefficient in the age features with a p-value smaller than the threshold (we choose 0.06), tells us that **age is a statistically significant positive predictor for Clinton speakers**. That means that increasing the age of a speaker it is more likely for him to have quotes referred to Clinton with respect to quotes referred to Trump.
 - We cannot state with statistical significance that the other features are positive or negative predictors since the p-value is above the chosen confidence level 0.06 which means that the coefficients in the model could potentially be all zeros a part from the age coefficient. However, from a simpler point of view, we could say that the model suggests that all the features with negative coefficients in the table above are positive predictors for a speaker to be a Clinton speaker. On the other hand the positive coefficients are positive predictors for a speaker to be a Trump speaker. However, it is remarkable that in this case we don't have any statistical significance of these results.
 
+
+Note: We considered the 6 % significance level for our analysis.
+
 To try to overcome the problems of the logistic regression model we will try another interpretable model suitable for classification tasks.
 
 ## Decision Tree Model
@@ -288,31 +291,19 @@ To try to overcome the problems of the logistic regression model we will try ano
 
 ![Decision_tree](assets/plots/tree.jpg)
 
-First of all, it is remarkable that in the training set we have 4481 Trump's speaker and 2788 Clinton's speakers. The ratio is then 1.61 which means that for each Clinton's speaker there is on average 1.61 Trump's speakers. The feature which the model consider the one which could distiguish more the two classes is Nationality_North_America. Indeed, we have already studied in the nationality section how Clinton has a bigger proportion of speakers with American nationality. The model shows again that this is the case since if the Nationality is North_America (second node from the left between the nodes with depth one), then the new ratio of Trump's vs Clinton's speakers is 1.17 while in case the nationality is not North America the new ratio is 2.97 (first node from the left between the nodes with depth one). This may suggetsts that North_American nationality is a positive predictor for Clinton's speakers but it is not sufficient alone to classify Clinton speakers and Trump's speakers for the model.
+First of all, it is remarkable that in the training set we have 4481 Trump's speaker and 2788 Clinton's speakers. The ratio between Trump's speakers and Clinton's speaker is then 1.61 which means that for each Clinton's speaker there is on average 1.61 Trump's speakers. **The feature which the model consider the one which could distiguish more the two classes is Nationality_North_America**. Indeed, we have already studied in the nationality section how Clinton has a bigger proportion of speakers with American nationality. The model shows again that this is the case since if the Nationality is North_America (second node from the left between the nodes with depth one), then the new ratio of Trump's vs Clinton's speakers is 1.17 while in case the nationality is not North America the new ratio is 2.97 (first node from the left between the nodes with depth one). This may suggetsts that North_American nationality is a positive predictor for Clinton's speakers but it is not sufficient alone to classify Clinton speakers and Trump's speakers for the model.
 
-Now we will have a look at the leafs of our tree to understand which are likely profiles of Trump's and Clinton's speakers. Looking at the first two leaves of the first left subtree (first ad second leaf from the left at depth 2), we notice that a speaker is classified as a Trump's speaker when his nationality is not a nationality from a North American country. We could then conclude that **having a nationality different from a North American one** is a positive predictor of being a Trump's speaker. Now looking at the first leaf from the left in the tree at depth 3, we notice that a speaker is classified as Trump's speaker if he/she has a nationality from a North American country, he/she is not republican and we don't have any information concerning her/his religion. On the other hand, looking at the second and third leaves from the left in the tree at depth 3 we have that a speaker is classified as a Clinton speaker if his nationality is from a country of North_America, he/she is republican. Finally, looking at the first leaf at depth 4, we have that a speaker is classified as Trump if he/she is from North America, he/she is not republican, we have information concerning the religion and the party is not democratic. Finally a speaker is classified as a Clinton speaker if he/she is from North America, he/she is democratic and we have information concerning the religion.
-
-## Least Squares Model
-
------------------
-
-![Least_Squares](assets/plots/Linear_Regression.png)
-
-Least Squares typically is used for regression tasks, however, we decided to use it to explain the features since in this case the model shows a better convergence which allows for meaningful interpretation of the coefficients. The model can be quite indicative of a predictor if we look at the sign of the coefficients with low p-value. Fortunately the regression analysis provides better results than the previous analysis, allowing us to make some conclusions.
+Now we will have a look at the leafs of our tree to understand which are likely profiles of Trump's and Clinton's speakers. Looking at the first two leaves of the first left subtree (first ad second leaf from the left at depth 2), we notice that a speaker is classified as a Trump's speaker when his nationality is not a nationality from a North American country. We could then conclude that **having a nationality different from a North American one** is a positive predictor of being a Trump's speaker. Now looking at the first leaf from the left in the tree at depth 3, we notice that a speaker is classified as Trump's speaker if he/she has a nationality from a North American country, he/she is not republican and we don't have any information concerning her/his religion. On the other hand, looking at the second and third leaves from the left in the tree at depth 3 we have that a speaker is classified as a Clinton speaker if his nationality is from a country of North_America, he/she is republican. Finally, looking at the first leaf at depth 4, we have that a speaker is classified as Trump if he/she is from North America, he/she is not republican and not democratic and we have information concerning the religion. Finally a speaker is classified as a Clinton speaker if he/she is from North America, he/she is democratic and we have information concerning the religion.
 
 **Model Conclusions**
 
-By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
+If we consider that when the above mentioned ratio is above 4.83 or below 0.54 (respectively 3 times and 1/3 times the initial ratio), we have that a speaker is quite likely to be a Trump's and a Clinton's speaker respectively, we have that:
 
-- Like before, **age is a positive predictor for Clinton Speakers** and a negative predictor for Trump speakers (this matches the previous analysis)
-- **Nationalities from Europe, Asia and South America are positive predictors for Trump Speakers** and negative predictors for Clinton Speakers (this matches the previous analysis).
-- **Nationalities from North America are positive predictors for Clinton Speakers** and a negative predictor for Clinton Speakers (this matches the previous analysis).
-- **Male gender is a positive predictor for Trump Speakers**, conversely Female gender is a positive predictor for Clinton Speakers (this matches the previous analysis).
-- In terms of religion, **believing in Buddism, Christianity, Judaism is a positive predictors for Clinton Speakers**, whereas **believing in Islam or not declaring any religion can be seen as positive predictor for Trump speakers**.
-- Surprisingly **both being a democratic or a republican is a positive predictor for Clinton speakers**.
-- **Not belonging to the democratic and republican, but to other political party is a positive predictor for Trump speakers**.
+- If someone has a nationality from a country not in North America and not belonging to democratic or republican party, then it is likely to be a Trump's speaker.
+- If someone has a nationality from a country in North America, is Republican and without any declared religion in the dataset, then it is likely to be a Clinton's speaker.
+- if someone is from North America, he/she is democratic and we have information concerning the religion, then it is likely to be a Clinton's speaker.
 
-Note: We considered the 6 % significance level for our analysis.  
+Notice that the results match at least partially with the previous analysis. Indeed, we have already seen in the nationality section that Clinton's speakers were more likely to have a nationality from a country in North America. In addition, if they don't belong to Republican or Democratic party they again are not likely to come from US and so not having a North American nationality. Therefore the differences observed in the nationality section match with the result of the model. Concerning the Clinton's speakers the model gives new insight on the potentially good profile of Clinton's speakers.
 
 
 # Conclusion
