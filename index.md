@@ -254,7 +254,7 @@ We notice that a similar effect can be seen in Clinton speakers nationalities to
 
 -----------------
 
-<iframe src="assets/plots/Nat_Pie_Chart.html" width="143%" height="1550">  </iframe>
+<iframe src="assets/plots/Nat_Pie_Chart.html" width="100%" height="1200">  </iframe>
 
 As we can observe in the plot above, the general author distribution of the nationalities is not so biased by nationalities of coutries with english language since between the leading nationalities for the speakers there are several european nationalities such as France, Germany, Spain in which the national language is not English. Comparing both Trump's and Clinton's speakers' nationality distributions we notice that there are noticeable differences between the two distributions. Indeed, we can see that **there are more people with American nationality speaking about Clinton than Trump** while for example the **people from European Union (at least the representative countries we have in the plot) are more likely to speak about Trump rather than Clinton**. Also in Canada, and Israel people are speaking more about Trump than Clinton. This suggests that **Trump character is more known outside United States of America while Clinton seems to be more popular in her origin country**. This information could be of primary interest for studies about the political basis of the two politicians.
 
