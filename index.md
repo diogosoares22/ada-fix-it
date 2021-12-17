@@ -286,7 +286,7 @@ To try to overcome the problems of the logistic regression model we will try ano
 
 -------------------
 
-![Decision_tree](assets/plots/Linear_Regression.png)
+![Decision_tree](assets/plots/tree.png)
 
 
 ## Least Squares Model
