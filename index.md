@@ -269,7 +269,7 @@ In order to better interpret which features can be considered predictive, when c
 
 -----------------
 
-![Logistic_Regression](assets/plots/Logistic_Regression.png)
+![Logistic_Regression](assets/plots/Logistic_Regression.PNG)
 
 Logistic Regression is usually a better model for classification tasks, however as we can see from the R2 coefficient, the fit is not great. Additionally, we have a big number of non defined values coupled with very high p-value for most coefficients. That being said **we can't make any meaningful conclusions, unless for the age predictor**.
 
