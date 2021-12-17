@@ -271,13 +271,23 @@ In order to better interpret which features can be considered predictive, when c
 
 ![Logistic_Regression](assets/plots/Logistic_Regression.PNG)
 
-Logistic Regression is usually a better model for classification tasks, however as we can see from the R2 coefficient, the fit is not great. Additionally, we have a big number of non defined values coupled with very high p-value for most coefficients. That being said **we can't make any meaningful conclusions, unless for the age predictor**.
+Logistic Regression is usually a good, simple and interpretable model for classification tasks, however as we can see from the pseudo-R2 coefficient, the fit in this case is not great. Additionally, we have a big number of non defined values coupled with very high p-value for most coefficients since the huge amount of zeros in the training matrix caused collinearity problems. That being said **we can't make many meaningful conclusions, unless for the age predictor**.
 
 **Model Conclusions**
 
-By looking at the coefficients with low p-value and their respective sign we can make the following conclusions:
+By looking at the coefficients with low p-value and their respective sign we can make the following conclusion:
 
 - A negative coefficient in the age features with a p-value smaller than the threshold (we choose 0.06), tells us that **age is a statistically significant positive predictor for Clinton speakers**. That means that increasing the age of a speaker it is more likely for him to have quotes referred to Clinton with respect to quotes referred to Trump.
+- We cannot state with statistical significance that the other features are positive or negative predictors since the p-value is above the chosen confidence level 0.06 which means that the coefficients in the model could potentially be all zeros a part from the age coefficient. However, from a simpler point of view, we could say that the model suggests that all the features with negative coefficients in the table above are positive predictors for a speaker to be a Clinton speaker. On the other hand the positive coefficients are positive predictors for a speaker to be a Trump speaker. However, it is remarkable that in this case we don't have any statistical significance of these results.
+
+To try to overcome the problems of the logistic regression model we will try another interpretable model suitable for classification tasks.
+
+## Decision Tree Model
+
+-------------------
+
+![Decision_tree](assets/plots/Linear_Regression.png)
+
 
 ## Least Squares Model
 
