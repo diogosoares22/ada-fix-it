@@ -167,7 +167,7 @@ According to conventional wisdom people tend to become more conservative as they
 
 -----------------
 
-<iframe src="assets/plots/Trump_Age.html" width="120%" height="500">  </iframe>
+<iframe src="assets/plots/Trump_Age.html" width="100%" height="500">  </iframe>
 
 As we observe the median age of a Trump speaker is 59 years old, interestingly the interquartile range is only 21 years with the first quartile ending at 48 years old and the third quartile ending at 69 years old, therefore 75 % of the speakers have more than 48 years. Another interesting observation relates to the skewness of the curve in the right and left sides of the distribution, it's noticeable that the skewness is slightly bigger on the right side compared to the left side, one possible explanation is the inherent biological restrictions of the human body, since the global live expectancy is calculated to be around 72 years old.
 
@@ -175,7 +175,7 @@ As we observe the median age of a Trump speaker is 59 years old, interestingly t
 
 -----------------
 
-<iframe src="assets/plots/Clinton_Age.html" width="120%" height="500">  </iframe>
+<iframe src="assets/plots/Clinton_Age.html" width="100%" height="500">  </iframe>
 
 As we observe the median age of a Clinton speaker is 60 years old, interestingly the interquartile range is only 22 years with the first quartile ending at 49 years old and the third quartile ending at 71 years old, therefore 75 % of the speakers have more than 49 years. Following the reasoning from the Trump Distribution, here one can also see that the right side of the distribution is more skewed than the right side, however the higher median and third quartile values mean the biological restriction will be even more visible, therefore having a skewness much higher in compared to the left side.
 
@@ -183,7 +183,7 @@ As we observe the median age of a Clinton speaker is 60 years old, interestingly
 
 -----------------
 
-<iframe src="assets/plots/Clinton_Trump_Age.html" width="140%" height="900">  </iframe>
+<iframe src="assets/plots/Clinton_Trump_Age.html" width="135%" height="900">  </iframe>
 
 From the distribution it could seem that **Clinton's speakers are a bit older in general with respect to Trump's speakers**, since as we mentioned before Trump's median is one year less than Clinton's median and the third quartile value is two years less than Clinton's as well. Additionally it's also notable that the age distribution deviates from the Authors distribution, maybe we can reason that people in their 40s, 50s and 60s are more prone to talk about politics, maybe one of the reasons why this happens relates to younger people not having enough knowledge of the recent political history, in order to correctly access the state of the country, and older people are not as prone to spend energy talking about such complex topic.
 
