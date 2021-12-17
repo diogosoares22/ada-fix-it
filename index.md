@@ -203,7 +203,7 @@ Nowadays, the relationship between gender and politics is a very hot topic. The 
 
 -----------------
 
-<iframe src="assets/plots/Trump_gender.html" width="120%" height="500">  </iframe>
+<iframe src="assets/plots/Trump_gender.html" width="100%" height="500">  </iframe>
 
 Given the number of males and females speaking about Trump, we clearly see a **3.23 male / female ratio**, this means that for every female that speaks about Trump we have on average 3.23 males speaking about Trump.
 
@@ -211,7 +211,7 @@ Given the number of males and females speaking about Trump, we clearly see a **3
 
 -----------------
 
-<iframe src="assets/plots/Clinton_gender.html" width="120%" height="500">  </iframe>
+<iframe src="assets/plots/Clinton_gender.html" width="100%" height="500">  </iframe>
 
 Given the number of males and females speaking about Clinton, we clearly see a **2.80 male / female ratio**, this means for every female that speaks about Clinton, we have on average 2.8 males speaking about Clinton.
 
@@ -219,7 +219,7 @@ Given the number of males and females speaking about Clinton, we clearly see a *
 
 -----------------
 
-<iframe src="assets/plots/Clinton_Trump_gender.html" width="120%" height="500">  </iframe>
+<iframe src="assets/plots/Clinton_Trump_gender.html" width="100%" height="500">  </iframe>
 
 As we can see the percentage of men talking about Trump is the same as the general author distribution (the distribution of the gender of all the speakers in quotebank dataset). However, interestingly, the percentage for Clinton's speakers deviate a lot from the author distribution. One possible explanation for this phenomena can relate to the more general support of females since Hillary Clinton could have potentially been the first female President of the US at that moment.
 
