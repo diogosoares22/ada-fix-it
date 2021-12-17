@@ -183,7 +183,7 @@ As we observe the median age of a Clinton speaker is 60 years old, interestingly
 
 -----------------
 
-<iframe src="assets/plots/Clinton_Trump_Age.html" width="130%" height="900">  </iframe>
+<iframe src="assets/plots/Clinton_Trump_Age.html" width="130%" height="950">  </iframe>
 
 From the distribution it could seem that **Clinton's speakers are a bit older in general with respect to Trump's speakers**, since as we mentioned before Trump's median is one year less than Clinton's median and the third quartile value is two years less than Clinton's as well. Additionally it's also notable that the age distribution deviates from the Authors distribution, maybe we can reason that people in their 40s, 50s and 60s are more prone to talk about politics, maybe one of the reasons why this happens relates to younger people not having enough knowledge of the recent political history, in order to correctly access the state of the country, and older people are not as prone to spend energy talking about such complex topic.
 
