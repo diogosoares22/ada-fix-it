@@ -278,7 +278,7 @@ Logistic Regression is usually a good, simple and interpretable model for classi
 By looking at the coefficients with low p-value and their respective sign we can make the following conclusion:
 
 - A negative coefficient in the age features with a p-value smaller than the threshold (we choose 0.06), tells us that **age is a statistically significant positive predictor for Clinton speakers**. That means that increasing the age of a speaker it is more likely for him to have quotes referred to Clinton with respect to quotes referred to Trump.
-- We cannot state with statistical significance that the other features are positive or negative predictors since the p-value is above the chosen confidence level 0.06 which means that the coefficients in the model could potentially be all zeros a part from the age coefficient. However, from a simpler point of view, we could say that the model suggests that all the features with negative coefficients in the table above are positive predictors for a speaker to be a Clinton speaker. On the other hand the positive coefficients are positive predictors for a speaker to be a Trump speaker. However, it is remarkable that in this case we don't have any statistical significance of these results.
+- **We cannot state with statistical significance that the other features are positive or negative predictors** since the p-value is above the chosen confidence level 0.06 which means that the coefficients in the model could potentially be all zeros a part from the age coefficient. However, from a simpler point of view, we could say that the model suggests that all the features with negative coefficients in the table above are positive predictors for a speaker to be a Clinton speaker. On the other hand the positive coefficients are positive predictors for a speaker to be a Trump speaker. However, it is remarkable that in this case we don't have any statistical significance of these results.
 
 
 Note: We considered the 6 % significance level for our analysis.
@@ -299,11 +299,11 @@ Now we will have a look at the leafs of our tree to understand which are likely 
 
 If we consider that when the above mentioned ratio is above 4.83 or below 0.54 (respectively 3 times and 1/3 times the initial ratio), we have that a speaker is quite likely to be a Trump's and a Clinton's speaker respectively, we have that:
 
-- If someone has a nationality from a country not in North America and not belonging to democratic or republican party, then it is likely to be a Trump's speaker.
-- If someone has a nationality from a country in North America, is Republican and without any declared religion in the dataset, then it is likely to be a Clinton's speaker.
-- if someone is from North America, he/she is democratic and we have information concerning the religion, then it is likely to be a Clinton's speaker.
+- **If someone has a nationality from a country not in North America and not belonging to democratic or republican party, then it is likely to be a Trump's speaker.**
+- **If someone has a nationality from a country in North America, is Republican and without any declared religion in the dataset, then it is likely to be a Clinton's speaker.**
+- **if someone is from North America, he/she is democratic and we have information concerning the religion, then it is likely to be a Clinton's speaker.**
 
-Notice that the results match at least partially with the previous analysis. Indeed, we have already seen in the nationality section that Clinton's speakers were more likely to have a nationality from a country in North America. In addition, if they don't belong to Republican or Democratic party they again are not likely to come from US and so not having a North American nationality. Therefore the differences observed in the nationality section match with the result of the model. Concerning the Clinton's speakers the model gives new insight on the potentially good profile of Clinton's speakers.
+Notice that the results match at least partially with the previous analysis. Indeed, we have already seen in the nationality section that Clinton's speakers were more likely to have a nationality from a country in North America. In addition, if they don't belong to Republican or Democratic party they again are not likely to come from US and so not to have a North American nationality. Therefore the differences observed in the nationality section match with the result of the model. Concerning the Clinton's speakers, the model gives new insight on the potentially good profile of Clinton's speakers.
 
 
 # Conclusion
